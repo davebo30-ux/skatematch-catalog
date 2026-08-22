@@ -9,6 +9,13 @@ const feeds = JSON.parse(await readFile(resolve(backendDirectory, "feeds.json"),
 const outputPath = resolve(backendDirectory, "data/catalog.json")
 const headers = { "User-Agent": "SkateMatch-MVP/0.1 (catalog synchronization)" }
 
+let previousCatalog = null
+try {
+  previousCatalog = JSON.parse(await readFile(outputPath, "utf8"))
+} catch (error) {
+  if (error.code !== "ENOENT") throw error
+}
+
 async function fetchJson(url, attempt = 1) {
   const response = await fetch(url, { headers, signal: AbortSignal.timeout(30_000) })
   if (response.ok) return response.json()
@@ -56,12 +63,27 @@ for (const feed of feeds) {
     const result = feed.kind === "shopify"
       ? await importShopify(feed)
       : await importWooCommerce(feed)
+    if (!result.normalized.length) throw new Error("Aucun produit disponible dans le flux")
     result.normalized.forEach(product => productsById.set(product.id, product))
     sourceResults.push({ id: feed.id, shop: feed.shop, status: "ok", scanned: result.scanned, imported: result.normalized.length })
     process.stdout.write(`✓ ${feed.shop}: ${result.normalized.length} variantes matériel\n`)
   } catch (error) {
-    sourceResults.push({ id: feed.id, shop: feed.shop, status: "error", message: error.message })
-    process.stderr.write(`✗ ${feed.shop}: ${error.message}\n`)
+    const retainedProducts = (previousCatalog?.products || []).filter(product => product.source === feed.id)
+    if (retainedProducts.length) {
+      retainedProducts.forEach(product => productsById.set(product.id, product))
+      sourceResults.push({
+        id: feed.id,
+        shop: feed.shop,
+        status: "stale",
+        imported: retainedProducts.length,
+        retainedFrom: previousCatalog.generatedAt,
+        message: error.message
+      })
+      process.stderr.write(`⚠ ${feed.shop}: ${error.message} · ${retainedProducts.length} offres précédentes conservées\n`)
+    } else {
+      sourceResults.push({ id: feed.id, shop: feed.shop, status: "error", message: error.message })
+      process.stderr.write(`✗ ${feed.shop}: ${error.message}\n`)
+    }
   }
 }
 

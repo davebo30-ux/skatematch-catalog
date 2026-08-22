@@ -25,3 +25,5 @@ npm run sync
 Le workflow `.github/workflows/sync-feeds.yml` exécute ces vérifications et actualise automatiquement le catalogue deux fois par jour, à 05:00 et 17:00 UTC. L’application Android lit uniquement le catalogue public généré ; elle n’interroge pas directement tous les shops.
 
 Les trucks vendus à l’unité indiquent une quantité de deux pour la composition d’un skateboard complet. Les accessoires de nettoyage, lubrifiants, pièces isolées et roulements vendus individuellement sont exclus des recommandations.
+
+Si un shop refuse temporairement le serveur GitHub ou tombe en panne, ses derniers produits valides sont conservés et la source est indiquée comme `stale`, afin d’éviter qu’une boutique entière disparaisse du catalogue.
