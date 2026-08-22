@@ -34,5 +34,114 @@
     "shop": "Ollieday Skateshop",
     "kind": "shopify",
     "baseUrl": "https://www.olliedayskateshop.com"
+  },
+  {
+    "id": "central",
+    "shop": "Central Sk8 Shop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.centralsk8shop.com",
+    "omitPageSize": true,
+    "categories": {
+      "DECK": "/19-boards",
+      "TRUCKS": "/16-trucks-skate",
+      "WHEELS": "/17-roues-skate",
+      "BEARINGS": "/18-roulements-skate"
+    }
+  },
+  {
+    "id": "lockwood",
+    "shop": "Lockwood Skateshop",
+    "kind": "bigcartel",
+    "baseUrl": "https://www.lockwood-skateshop.fr"
+  },
+  {
+    "id": "freedom",
+    "shop": "Freedom Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://freedomskateshop.fr",
+    "collections": {
+      "DECK": "skateboard-decks",
+      "TRUCKS": "skateboard-trucks",
+      "WHEELS": "skateboard-wheels",
+      "BEARINGS": "skateboard-bearings"
+    }
+  },
+  {
+    "id": "bass",
+    "shop": "Bass Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://bass-skateshop.com",
+    "categories": {
+      "DECK": "/10000007-plateaux",
+      "TRUCKS": "/10000010-trucks",
+      "WHEELS": "/10000008-roues",
+      "BEARINGS": "/10000009-roulements"
+    }
+  },
+  {
+    "id": "bamboo",
+    "shop": "Bamboo Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.bamboo-skateshop.com",
+    "categories": {
+      "DECK": "/13-planches",
+      "TRUCKS": "/16-trucks",
+      "WHEELS": "/15-roues",
+      "BEARINGS": "/17-roulements"
+    }
+  },
+  {
+    "id": "numero4",
+    "shop": "Numéro 4 Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://numero4skateshop.com",
+    "collections": {
+      "DECK": "planches-skateboard",
+      "TRUCKS": "trucks-skateboard",
+      "WHEELS": "roues-skateboard",
+      "BEARINGS": "roulements-skateboard"
+    }
+  },
+  {
+    "id": "city",
+    "shop": "City Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.cityskateshop.com",
+    "categories": {
+      "DECK": "/120-plateaux",
+      "TRUCKS": "/122-trucks",
+      "WHEELS": "/121-roues",
+      "BEARINGS": "/125-roulements"
+    }
+  },
+  {
+    "id": "okla",
+    "shop": "OKLA Shop",
+    "kind": "woocommerce",
+    "baseUrl": "https://okla-shop.com",
+    "categories": {
+      "DECK": 4155,
+      "TRUCKS": 4157,
+      "WHEELS": 4158,
+      "BEARINGS": 4159
+    }
+  },
+  {
+    "id": "official",
+    "shop": "Official Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://officialskateshop.com"
+  },
+  {
+    "id": "jacknroll",
+    "shop": "Jack'n Roll",
+    "kind": "prestashop",
+    "baseUrl": "https://jacknroll.fr",
+    "categories": {
+      "DECK": "/125-planches-seules",
+      "TRUCKS": "/92-trucks",
+      "WHEELS": "/140-roues",
+      "BEARINGS": "/91-roulements"
+    }
   }
 ]

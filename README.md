@@ -4,12 +4,16 @@ Ce dossier contient le premier normaliseur de catalogues pour SkateMatch. Il lit
 
 Sources actuellement configurées :
 
-- BUD Skateshop : API publique WooCommerce Store.
-- WallStreet, Buzzz, Circle et Ollieday : catalogues JSON Shopify.
+- BUD Skateshop et OKLA Shop : API publiques WooCommerce Store.
+- WallStreet, Buzzz, Circle, Ollieday, Freedom, Numéro 4 et Official : catalogues JSON Shopify.
+- Central Sk8 Shop, Bass, Bamboo, City et Jack'n Roll : flux JSON publics des catégories PrestaShop.
+- Lockwood Skateshop : catalogue JSON public Big Cartel.
+
+Pour les boutiques proposant aussi du longboard, des trottinettes ou des rollers, seules les catégories skateboard correspondant aux plateaux, trucks, roues et roulements sont interrogées. Les catalogues de Riot et SB Skateshop refusent actuellement les requêtes automatisées et ne sont donc pas intégrés.
 
 Sources étudiées mais non connectées :
 
-- Play Skateshop : boutique PrestaShop, API produits protégée par une clé.
+- Play Skateshop : boutique PrestaShop, catégories publiques à vérifier séparément.
 - Novoid Plus : aucun catalogue JSON public identifié.
 - Blue Tomato : plateforme propriétaire et enseigne non indépendante, donc priorité basse.
 
@@ -23,6 +27,8 @@ npm run sync
 ```
 
 Le workflow `.github/workflows/sync-feeds.yml` exécute ces vérifications et actualise automatiquement le catalogue deux fois par jour, à 05:00 et 17:00 UTC. L’application Android lit uniquement le catalogue public généré ; elle n’interroge pas directement tous les shops.
+
+Le fichier `data/status.json` présente le nombre d'offres par catégorie, les boutiques actives et celles momentanément indisponibles, sans devoir télécharger l'intégralité du catalogue.
 
 Les trucks vendus à l’unité indiquent une quantité de deux pour la composition d’un skateboard complet. Les accessoires de nettoyage, lubrifiants, pièces isolées et roulements vendus individuellement sont exclus des recommandations.
 

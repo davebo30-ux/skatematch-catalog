@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-22T10:49:27.059Z",
+  "totalOffers": 8098,
+  "counts": {
+    "DECK": 4214,
+    "TRUCKS": 1182,
+    "WHEELS": 2413,
+    "BEARINGS": 289
+  },
+  "sources": [
+    { "id": "bud", "shop": "BUD Skateshop", "status": "ok", "imported": 661 },
+    { "id": "wallstreet", "shop": "WallStreet Skateshop", "status": "ok", "imported": 80 },
+    { "id": "buzzz", "shop": "Buzzz Skateshop", "status": "ok", "imported": 594 },
+    { "id": "circle", "shop": "Circle Shop", "status": "ok", "imported": 27 },
+    { "id": "ollieday", "shop": "Ollieday Skateshop", "status": "ok", "imported": 102 },
+    { "id": "central", "shop": "Central Sk8 Shop", "status": "ok", "imported": 17 },
+    { "id": "lockwood", "shop": "Lockwood Skateshop", "status": "ok", "imported": 21 },
+    { "id": "freedom", "shop": "Freedom Skateshop", "status": "ok", "imported": 376 },
+    { "id": "bass", "shop": "Bass Skateshop", "status": "ok", "imported": 187 },
+    { "id": "bamboo", "shop": "Bamboo Skateshop", "status": "ok", "imported": 135 },
+    { "id": "numero4", "shop": "Numéro 4 Skateshop", "status": "ok", "imported": 3475 },
+    { "id": "city", "shop": "City Skateshop", "status": "ok", "imported": 2308 },
+    { "id": "official", "shop": "Official Skateshop", "status": "ok", "imported": 81 },
+    { "id": "jacknroll", "shop": "Jack'n Roll", "status": "ok", "imported": 69 }
+  ],
+  "unavailableSources": [
+    {
+      "id": "okla",
+      "shop": "OKLA Shop",
+      "status": "error",
+      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+    }
+  ]
+}

@@ -39,12 +39,12 @@ jobs:
 
       - name: Publier le catalogue actualise
         run: |
-          if git diff --quiet -- data/catalog.json; then
+          if git diff --quiet -- data/catalog.json data/status.json; then
             echo "Le catalogue est deja a jour."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog.json
+          git add data/catalog.json data/status.json
           git commit -m "data: actualiser le catalogue"
           git push
