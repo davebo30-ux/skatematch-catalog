@@ -77,7 +77,7 @@ const catalog = {
 }
 
 await mkdir(dirname(outputPath), { recursive: true })
-await writeFile(outputPath, `${JSON.stringify(catalog, null, 2)}\n`, "utf8")
+await writeFile(outputPath, `${JSON.stringify(catalog)}\n`, "utf8")
 process.stdout.write(`Catalogue écrit : ${products.length} offres · ${outputPath}\n`)
 
 if (!products.length || sourceResults.every(source => source.status === "error")) process.exitCode = 1
