@@ -1,6 +1,12 @@
 name: Actualiser le catalogue
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "feeds.json"
+      - "src/**"
+      - ".github/workflows/sync-feeds.yml"
   workflow_dispatch:
   schedule:
     - cron: "0 5,17 * * *"
