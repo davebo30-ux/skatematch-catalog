@@ -1,0 +1,44 @@
+name: Actualiser le catalogue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5,17 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-feeds
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Recuperer le catalogue
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tester le normaliseur
+        run: node --test
+
+      - name: Actualiser les flux independants
+        run: node src/sync-feeds.mjs
+
+      - name: Publier le catalogue actualise
+        run: |
+          if git diff --quiet -- data/catalog.json; then
+            echo "Le catalogue est deja a jour."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.json
+          git commit -m "data: actualiser le catalogue"
+          git push

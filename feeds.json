@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bud",
+    "shop": "BUD Skateshop",
+    "kind": "woocommerce",
+    "baseUrl": "https://www.budskateshop.com",
+    "categories": {
+      "DECK": 1162,
+      "TRUCKS": 1154,
+      "WHEELS": 1167,
+      "BEARINGS": 1161
+    }
+  },
+  {
+    "id": "wallstreet",
+    "shop": "WallStreet Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://wallstreetskateshop.fr"
+  },
+  {
+    "id": "buzzz",
+    "shop": "Buzzz Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://buzzzskateshop.com"
+  },
+  {
+    "id": "circle",
+    "shop": "Circle Shop",
+    "kind": "shopify",
+    "baseUrl": "https://circleshop.fr"
+  },
+  {
+    "id": "ollieday",
+    "shop": "Ollieday Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://www.olliedayskateshop.com"
+  }
+]

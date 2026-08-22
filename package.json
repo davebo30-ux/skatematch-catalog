@@ -1,0 +1,12 @@
+{
+  "name": "skatematch-feed-sync",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node src/sync-feeds.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
