@@ -5,9 +5,10 @@ Ce dossier contient le premier normaliseur de catalogues pour SkateMatch. Il lit
 Sources actuellement configurées :
 
 - BUD Skateshop et OKLA Shop : API publiques WooCommerce Store.
-- WallStreet, Buzzz, Circle, Ollieday, Freedom, Numéro 4 et Official : catalogues JSON Shopify.
+- WallStreet, Buzzz, Circle, Ollieday, Freedom, Numéro 4, Official, Balargue, Bird, Born2ride, Le Père Skateur et Woodstock : catalogues JSON Shopify.
 - Central Sk8 Shop, Bass, Bamboo, City et Jack'n Roll : flux JSON publics des catégories PrestaShop.
 - Lockwood Skateshop : catalogue JSON public Big Cartel.
+- Shifty Board Shop, Nozbone Skateshop et Snowbeach : catégories publiques PrestaShop ou Magento, lues sans dépendance externe.
 
 Pour les boutiques proposant aussi du longboard, des trottinettes ou des rollers, seules les catégories skateboard correspondant aux plateaux, trucks, roues et roulements sont interrogées. Les catalogues de Riot et SB Skateshop refusent actuellement les requêtes automatisées et ne sont donc pas intégrés.
 

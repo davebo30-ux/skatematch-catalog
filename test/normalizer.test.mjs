@@ -4,10 +4,12 @@ import {
   classifyHardware,
   extractSpecs,
   normalizeBigCartelProduct,
+  normalizeHtmlProduct,
   normalizePrestaProduct,
   normalizeShopifyProduct,
   normalizeWooProduct
 } from "../src/normalizer.mjs"
+import { extractCatalogPage } from "../src/html-catalog.mjs"
 
 test("classifie les quatre composants sans confondre une casquette trucker", () => {
   assert.equal(classifyHardware({ productType: "Roues", title: "Spitfire F4 54mm 99A" }), "WHEELS")
@@ -133,4 +135,39 @@ test("normalise Big Cartel sans reprendre les articles en rupture ni les vêteme
   assert.deepEqual(wheel.specs, { diameterMm: 53, hardnessA: 99 })
   assert.deepEqual(normalizeBigCartelProduct(feed, { ...product, status: "sold-out" }), [])
   assert.deepEqual(normalizeBigCartelProduct(feed, { ...product, name: "LP Contrast Polo White" }), [])
+})
+
+test("lit les catégories publiques Magento et PrestaShop sans confondre stock et promotion", () => {
+  const html = `
+    <ol class="products list items product-items">
+      <li class="item product product-item">
+        <a class="product-item-photo" href="/deck-baker-825.html"><img src="/images/baker.jpg" alt="Baker Deck 8.25"></a>
+        <strong class="product-item-name"><a class="product-item-link" href="/deck-baker-825.html">Baker Deck 8.25</a></strong>
+        <span class="price-wrapper" data-price-amount="79.90"><span class="price">79,90&nbsp;€</span></span>
+        <button>Ajouter au panier</button>
+      </li>
+      <li class="ajax_block_product item">
+        <a class="product_img_link" href="/deck-santa-cruz.html"><img data-src="/images/santa.jpg" alt="Santa Cruz Deck 8.5"></a>
+        <h2 class="product-name"><a href="/deck-santa-cruz.html">Santa Cruz Deck 8.5</a></h2>
+        <span class="old-price"><span class="price">95,00 €</span></span>
+        <span class="special-price"><span class="price">72,50 €</span></span>
+        <span>Épuisé</span>
+      </li>
+    </ol>
+    <a class="next" href="/skateboards/planches.html?p=2">Suivant</a>
+  `
+
+  const result = extractCatalogPage(html, "https://example.com/skateboards/planches.html")
+  assert.equal(result.products.length, 2)
+  assert.equal(result.products[0].price, 79.9)
+  assert.equal(result.products[0].imageUrl, "https://example.com/images/baker.jpg")
+  assert.equal(result.products[1].price, 72.5)
+  assert.equal(result.products[1].inStock, false)
+  assert.equal(result.nextUrl, "https://example.com/skateboards/planches.html?p=2")
+
+  const feed = { id: "magento", shop: "Magento Shop" }
+  const [deck] = normalizeHtmlProduct(feed, "DECK", result.products[0])
+  assert.equal(deck.brand, "Baker")
+  assert.deepEqual(deck.specs, { widthInches: 8.25 })
+  assert.deepEqual(normalizeHtmlProduct(feed, "DECK", result.products[1]), [])
 })

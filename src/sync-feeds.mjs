@@ -3,10 +3,12 @@ import { dirname, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
 import {
   normalizeBigCartelProduct,
+  normalizeHtmlProduct,
   normalizePrestaProduct,
   normalizeShopifyProduct,
   normalizeWooProduct
 } from "./normalizer.mjs"
+import { extractCatalogPage } from "./html-catalog.mjs"
 
 const sourceDirectory = dirname(fileURLToPath(import.meta.url))
 const backendDirectory = resolve(sourceDirectory, "..")
@@ -104,6 +106,38 @@ async function importBigCartel(feed) {
   return { normalized, scanned: products.length }
 }
 
+async function importHtmlCatalog(feed) {
+  const normalized = []
+  let scanned = 0
+
+  for (const [componentType, categoryPath] of Object.entries(feed.categories)) {
+    let nextUrl = new URL(categoryPath, feed.baseUrl).href
+    const visited = new Set()
+
+    for (let page = 1; nextUrl && page <= (feed.maxPages || 6); page += 1) {
+      if (visited.has(nextUrl)) break
+      visited.add(nextUrl)
+      const response = await fetch(nextUrl, {
+        headers: {
+          ...headers,
+          Accept: "text/html,application/xhtml+xml"
+        },
+        signal: AbortSignal.timeout(45_000)
+      })
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText} · ${nextUrl}`)
+
+      const result = extractCatalogPage(await response.text(), nextUrl)
+      scanned += result.products.length
+      result.products.forEach(product => normalized.push(...normalizeHtmlProduct(feed, componentType, product)))
+      nextUrl = result.nextUrl
+      if (nextUrl && new URL(nextUrl).hostname !== new URL(feed.baseUrl).hostname) nextUrl = null
+      if (!result.products.length) break
+    }
+  }
+
+  return { normalized, scanned }
+}
+
 const productsById = new Map()
 const sourceResults = Array(feeds.length)
 
@@ -113,7 +147,8 @@ async function synchronizeFeed(feed, index) {
       shopify: importShopify,
       woocommerce: importWooCommerce,
       prestashop: importPrestaShop,
-      bigcartel: importBigCartel
+      bigcartel: importBigCartel,
+      html: importHtmlCatalog
     }[feed.kind]
     if (!importer) throw new Error(`Type de flux non reconnu : ${feed.kind}`)
     const result = await importer(feed)

@@ -240,6 +240,35 @@ export function normalizePrestaProduct(feed, componentType, product) {
     : []
 }
 
+export function normalizeHtmlProduct(feed, componentType, product) {
+  if (!COMPONENTS.has(componentType) || product.inStock === false || excludedHardware(product.name || "", componentType)) {
+    return []
+  }
+
+  const price = Number(product.price)
+  if (!Number.isFinite(price) || price <= 0 || !product.imageUrl || !product.productUrl || !product.name) {
+    return []
+  }
+
+  const item = {
+    id: `${feed.id}:html:${product.id}`,
+    source: feed.id,
+    sourceProductId: String(product.id),
+    componentType,
+    brand: inferBrand(product.name, product.brand),
+    name: product.name,
+    imageUrl: product.imageUrl,
+    productUrl: product.productUrl,
+    shop: feed.shop,
+    price,
+    currency: "EUR",
+    inStock: true,
+    quantityForSetup: componentType === "TRUCKS" ? 2 : 1,
+    specs: extractSpecs(componentType, `${product.name} ${product.details || ""}`)
+  }
+  return [{ ...item, canonicalKey: canonicalKey(item) }]
+}
+
 export function normalizeBigCartelProduct(feed, product) {
   if (product.status !== "active") return []
   const categories = (product.categories || []).map(category => category.name)

@@ -143,5 +143,85 @@
       "WHEELS": "/140-roues",
       "BEARINGS": "/91-roulements"
     }
+  },
+  {
+    "id": "balargue",
+    "shop": "Balargue Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://balargueskateshop.com"
+  },
+  {
+    "id": "bird",
+    "shop": "Bird Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://bird-skateshop.com"
+  },
+  {
+    "id": "born2ride",
+    "shop": "Born2ride",
+    "kind": "shopify",
+    "baseUrl": "https://born2ride.fr",
+    "collections": {
+      "DECK": "planches-de-skate",
+      "TRUCKS": "trucks",
+      "WHEELS": "roues",
+      "BEARINGS": "roulements"
+    }
+  },
+  {
+    "id": "pereskateur",
+    "shop": "Le Père Skateur",
+    "kind": "shopify",
+    "baseUrl": "https://www.lepereskateur.com"
+  },
+  {
+    "id": "woodstock",
+    "shop": "Woodstock Shop",
+    "kind": "shopify",
+    "baseUrl": "https://www.woodstockshop.com",
+    "collections": {
+      "DECK": "plateaux-skateboard",
+      "TRUCKS": "trucks-skateboard",
+      "WHEELS": "roues-skateboard",
+      "BEARINGS": "roulements-skateboard"
+    }
+  },
+  {
+    "id": "shifty",
+    "shop": "Shifty Board Shop",
+    "kind": "html",
+    "baseUrl": "https://shiftyboardshop.com",
+    "maxPages": 4,
+    "categories": {
+      "DECK": "/321-short-boards",
+      "TRUCKS": "/329-trucks",
+      "WHEELS": "/330-roues",
+      "BEARINGS": "/339-roulements"
+    }
+  },
+  {
+    "id": "nozbone",
+    "shop": "Nozbone Skateshop",
+    "kind": "html",
+    "baseUrl": "https://www.nozbone.eu",
+    "maxPages": 6,
+    "categories": {
+      "DECK": "/skateboarding/skateboard-decks.html",
+      "TRUCKS": "/skateboarding/skate-trucks.html",
+      "WHEELS": "/skateboarding/skate-wheels.html"
+    }
+  },
+  {
+    "id": "snowbeach",
+    "shop": "Snowbeach",
+    "kind": "html",
+    "baseUrl": "https://www.snowbeach.com",
+    "maxPages": 8,
+    "categories": {
+      "DECK": "/snowbeach/skateboards/planches.html",
+      "TRUCKS": "/snowbeach/skateboards/trucks.html",
+      "WHEELS": "/snowbeach/skateboards/roues.html",
+      "BEARINGS": "/snowbeach/skateboards/roulements.html"
+    }
   }
 ]
