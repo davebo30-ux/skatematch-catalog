@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T08:04:57.917Z",
-  "totalOffers": 8696,
+  "generatedAt": "2026-08-24T18:04:13.429Z",
+  "totalOffers": 8685,
   "counts": {
-    "DECK": 4490,
-    "TRUCKS": 1278,
-    "WHEELS": 2600,
-    "BEARINGS": 328
+    "DECK": 4499,
+    "TRUCKS": 1276,
+    "WHEELS": 2584,
+    "BEARINGS": 326
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-23T17:44:23.861Z",
+      "retainedFrom": "2026-08-24T08:04:57.917Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,14 +27,14 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2663,
-      "imported": 594
+      "scanned": 2672,
+      "imported": 602
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 502,
+      "scanned": 507,
       "imported": 27
     },
     {
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 377,
-      "imported": 373
+      "scanned": 368,
+      "imported": 364
     },
     {
       "id": "bass",
@@ -91,15 +91,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-23T17:44:23.861Z",
+      "retainedFrom": "2026-08-24T08:04:57.917Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
       "status": "ok",
-      "scanned": 273,
-      "imported": 248
+      "scanned": 271,
+      "imported": 253
     },
     {
       "id": "official",
@@ -112,8 +112,8 @@
       "id": "jacknroll",
       "shop": "Jack'n Roll",
       "status": "ok",
-      "scanned": 94,
-      "imported": 69
+      "scanned": 48,
+      "imported": 21
     },
     {
       "id": "balargue",
