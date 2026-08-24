@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T17:44:23.861Z",
-  "totalOffers": 8697,
+  "generatedAt": "2026-08-24T08:04:57.917Z",
+  "totalOffers": 8696,
   "counts": {
-    "DECK": 4491,
+    "DECK": 4490,
     "TRUCKS": 1278,
     "WHEELS": 2600,
     "BEARINGS": 328
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-23T06:00:13.154Z",
+      "retainedFrom": "2026-08-23T17:44:23.861Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 378,
-      "imported": 374
+      "scanned": 377,
+      "imported": 373
     },
     {
       "id": "bass",
@@ -91,16 +91,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-23T06:00:13.154Z",
+      "retainedFrom": "2026-08-23T17:44:23.861Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "stale",
-      "imported": 248,
-      "retainedFrom": "2026-08-23T06:00:13.154Z",
-      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+      "status": "ok",
+      "scanned": 273,
+      "imported": 248
     },
     {
       "id": "official",
@@ -164,7 +163,7 @@
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "error",
-      "message": "404 Not Found · https://www.nozbone.eu/skateboarding/skateboard-decks.html"
+      "message": "522 <none> · https://www.nozbone.eu/skateboarding/skateboard-decks.html"
     },
     {
       "id": "snowbeach",
