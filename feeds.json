@@ -223,16 +223,5 @@
       "WHEELS": "/snowbeach/skateboards/roues.html",
       "BEARINGS": "/snowbeach/skateboards/roulements.html"
     }
-  },
-  {
-    "id": "sevensuns",
-    "shop": "Seven Suns",
-    "kind": "prestashop",
-    "baseUrl": "https://sevensuns.fr/en",
-    "categories": {
-      "TRUCKS": "/41-trucks-street",
-      "WHEELS": "/42-roues-street",
-      "BEARINGS": "/43-roulements"
-    }
   }
 ]
