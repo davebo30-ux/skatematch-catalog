@@ -223,5 +223,15 @@
       "WHEELS": "/snowbeach/skateboards/roues.html",
       "BEARINGS": "/snowbeach/skateboards/roulements.html"
     }
+  },
+  {
+    "id": "milk",
+    "shop": "Milk Skate Store",
+    "kind": "shopify",
+    "baseUrl": "https://www.milk-store.com",
+    "collections": {
+      "DECK": "decks",
+      "TRUCKS": "trucks"
+    }
   }
 ]
