@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T06:04:28.423Z",
-  "totalOffers": 8882,
+  "generatedAt": "2026-08-25T11:44:16.828Z",
+  "totalOffers": 8877,
   "counts": {
     "DECK": 4595,
-    "TRUCKS": 1322,
-    "WHEELS": 2639,
+    "TRUCKS": 1319,
+    "WHEELS": 2637,
     "BEARINGS": 326
   },
   "sources": [
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-24T18:04:13.429Z",
+      "retainedFrom": "2026-08-25T06:04:28.423Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -21,14 +21,14 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 249,
-      "imported": 80
+      "imported": 82
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 2672,
-      "imported": 602
+      "imported": 600
     },
     {
       "id": "circle",
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 368,
-      "imported": 364
+      "scanned": 365,
+      "imported": 361
     },
     {
       "id": "bass",
@@ -91,15 +91,16 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-24T18:04:13.429Z",
+      "retainedFrom": "2026-08-25T06:04:28.423Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 271,
-      "imported": 253
+      "status": "stale",
+      "imported": 253,
+      "retainedFrom": "2026-08-25T06:04:28.423Z",
+      "message": "fetch failed"
     },
     {
       "id": "official",
@@ -161,8 +162,8 @@
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "ok",
-      "scanned": 198,
-      "imported": 197
+      "scanned": 196,
+      "imported": 195
     }
   ],
   "unavailableSources": [
@@ -171,6 +172,12 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "403 Forbidden · https://www.snowbeach.com/snowbeach/skateboards/planches.html"
+    },
+    {
+      "id": "sevensuns",
+      "shop": "Seven Suns",
+      "status": "error",
+      "message": "403 Forbidden · https://sevensuns.fr/en/41-trucks-street?ajax=1&page=1&resultsPerPage=100"
     }
   ]
 }
