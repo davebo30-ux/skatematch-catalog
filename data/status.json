@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-25T11:49:23.434Z",
-  "totalOffers": 8912,
+  "generatedAt": "2026-08-25T11:58:04.968Z",
+  "totalOffers": 9028,
   "counts": {
-    "DECK": 4627,
+    "DECK": 4743,
     "TRUCKS": 1322,
     "WHEELS": 2637,
     "BEARINGS": 326
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-25T11:47:31.341Z",
+      "retainedFrom": "2026-08-25T11:49:23.434Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,7 +27,7 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2672,
+      "scanned": 2673,
       "imported": 600
     },
     {
@@ -91,16 +91,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-25T11:47:31.341Z",
+      "retainedFrom": "2026-08-25T11:49:23.434Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "stale",
-      "imported": 253,
-      "retainedFrom": "2026-08-25T11:47:31.341Z",
-      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+      "status": "ok",
+      "scanned": 271,
+      "imported": 253
     },
     {
       "id": "official",
@@ -171,6 +170,13 @@
       "status": "ok",
       "scanned": 64,
       "imported": 35
+    },
+    {
+      "id": "rollernco",
+      "shop": "Roller'n Co",
+      "status": "ok",
+      "scanned": 240,
+      "imported": 116
     }
   ],
   "unavailableSources": [
