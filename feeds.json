@@ -233,5 +233,14 @@
       "DECK": "decks",
       "TRUCKS": "trucks"
     }
+  },
+  {
+    "id": "rollernco",
+    "shop": "Roller'n Co",
+    "kind": "prestashop",
+    "baseUrl": "https://www.rollernco.com/en",
+    "categories": {
+      "DECK": "/159-skateboards-decks"
+    }
   }
 ]
