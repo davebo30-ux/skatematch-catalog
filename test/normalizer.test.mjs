@@ -50,10 +50,11 @@ test("normalise une variante Shopify disponible avec son lien shop", () => {
     vendor: "Spitfire",
     tags: ["52mm", "101A"],
     images: [{ src: "https://example.com/wheel.png" }],
-    variants: [{ id: 11, title: "Default Title", price: "69.90", available: true }]
+    variants: [{ id: 11, title: "Default Title", price: "69.90", compare_at_price: "89.90", available: true }]
   })
   assert.equal(products.length, 1)
   assert.equal(products[0].price, 69.9)
+  assert.equal(products[0].regularPrice, 89.9)
   assert.equal(products[0].productUrl, "https://example.com/products/spitfire-52-101a")
   assert.deepEqual(products[0].specs, { diameterMm: 52, hardnessA: 101 })
   assert.equal(products[0].quantityForSetup, 1)
@@ -80,7 +81,7 @@ test("retire les accessoires WooCommerce et compte deux trucks par setup", () =>
   const base = {
     id: 10,
     is_in_stock: true,
-    prices: { price: "3500", currency_minor_unit: 2, currency_code: "EUR" },
+    prices: { price: "3500", regular_price: "4500", currency_minor_unit: 2, currency_code: "EUR" },
     images: [{ src: "https://example.com/truck.png" }],
     permalink: "https://example.com/truck",
     attributes: []
@@ -92,6 +93,7 @@ test("retire les accessoires WooCommerce et compte deux trucks par setup", () =>
   assert.deepEqual(normalizeWooProduct(feed, "BEARINGS", { ...base, name: "Bones Cream Speed Lubricant" }), [])
   const [truck] = normalizeWooProduct(feed, "TRUCKS", { ...base, name: "Independent Truck 144" })
   assert.equal(truck.quantityForSetup, 2)
+  assert.equal(truck.regularPrice, 45)
 })
 
 test("normalise le flux JSON PrestaShop et retire les produits réellement indisponibles", () => {
@@ -104,12 +106,14 @@ test("normalise le flux JSON PrestaShop et retire les produits réellement indis
     manufacturer_name: "DGK",
     url: "https://example.com/deck-dgk",
     price_amount: 95,
+    regular_price_amount: 109,
     cover: { bySize: { home_default: { url: "https://example.com/deck.jpg" } } }
   }
   const [deck] = normalizePrestaProduct(feed, "DECK", product)
   assert.equal(deck.brand, "DGK")
   assert.equal(deck.imageUrl, "https://example.com/deck.jpg")
   assert.equal(deck.productUrl, "https://example.com/deck-dgk")
+  assert.equal(deck.regularPrice, 109)
   assert.deepEqual(deck.specs, { widthInches: 8.25 })
   assert.deepEqual(normalizePrestaProduct(feed, "DECK", { ...product, add_to_cart_url: null }), [])
   assert.equal(normalizePrestaProduct(feed, "DECK", { ...product, add_to_cart_url: null, quantity: 1 }).length, 1)
@@ -162,6 +166,7 @@ test("lit les catégories publiques Magento et PrestaShop sans confondre stock e
   assert.equal(result.products[0].price, 79.9)
   assert.equal(result.products[0].imageUrl, "https://example.com/images/baker.jpg")
   assert.equal(result.products[1].price, 72.5)
+  assert.equal(result.products[1].regularPrice, 95)
   assert.equal(result.products[1].inStock, false)
   assert.equal(result.nextUrl, "https://example.com/skateboards/planches.html?p=2")
 

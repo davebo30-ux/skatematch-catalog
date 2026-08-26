@@ -191,7 +191,7 @@ const products = [...productsById.values()].sort((left, right) =>
   left.componentType.localeCompare(right.componentType) || left.brand.localeCompare(right.brand) || left.price - right.price
 )
 const catalog = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
   sources: sourceResults.filter(source => source.status !== "error"),
   unavailableSources: sourceResults.filter(source => source.status === "error"),
