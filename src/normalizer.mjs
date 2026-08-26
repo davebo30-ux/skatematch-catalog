@@ -78,6 +78,20 @@ function inferBrand(name, fallback = "") {
   return withoutCategory.trim().split(/\s+/)[0] || "Sans marque"
 }
 
+function parseLocalizedPrice(value) {
+  if (value === null || value === undefined || value === "") return Number.NaN
+  if (typeof value === "number") return value
+  const normalized = String(value)
+    .replace(/[^\d,.]/g, "")
+    .replace(",", ".")
+  return Number(normalized)
+}
+
+function optionalRegularPrice(value, currentPrice) {
+  const regularPrice = parseLocalizedPrice(value)
+  return Number.isFinite(regularPrice) && regularPrice > currentPrice ? regularPrice : null
+}
+
 function firstNumber(text, regex, min, max) {
   const match = plain(text).match(regex)
   if (!match) return null
@@ -150,6 +164,8 @@ export function normalizeShopifyProduct(feed, product, expectedComponentType = n
     const variantLabel = variant.title && variant.title !== "Default Title" ? variant.title : ""
     const relevantTags = componentType === "TRUCKS" ? "" : (product.tags || []).join(" ")
     const specText = `${product.title} ${variantLabel} ${relevantTags}`
+    const price = Number(variant.price)
+    const regularPrice = optionalRegularPrice(variant.compare_at_price, price)
     const item = {
       id: `${feed.id}:shopify:${variant.id || product.id}`,
       source: feed.id,
@@ -160,7 +176,8 @@ export function normalizeShopifyProduct(feed, product, expectedComponentType = n
       imageUrl,
       productUrl: `${feed.baseUrl}/products/${product.handle}`,
       shop: feed.shop,
-      price: Number(variant.price),
+      price,
+      ...(regularPrice ? { regularPrice } : {}),
       currency: "EUR",
       inStock: true,
       quantityForSetup: componentType === "TRUCKS" ? 2 : 1,
@@ -179,6 +196,11 @@ export function normalizeWooProduct(feed, componentType, product) {
   const minorUnit = product.prices?.currency_minor_unit ?? 2
   const rawPrice = product.prices?.price
   const price = rawPrice == null ? Number.NaN : Number(rawPrice) / (10 ** minorUnit)
+  const rawRegularPrice = product.prices?.regular_price
+  const regularPrice = optionalRegularPrice(
+    rawRegularPrice == null ? Number.NaN : Number(rawRegularPrice) / (10 ** minorUnit),
+    price
+  )
   const item = {
     id: `${feed.id}:woo:${product.id}`,
     source: feed.id,
@@ -190,6 +212,7 @@ export function normalizeWooProduct(feed, componentType, product) {
     productUrl: product.permalink,
     shop: feed.shop,
     price,
+    ...(regularPrice ? { regularPrice } : {}),
     currency: product.prices?.currency_code || "EUR",
     inStock: product.is_in_stock !== false,
     quantityForSetup: componentType === "TRUCKS" ? 2 : 1,
@@ -217,6 +240,12 @@ export function normalizePrestaProduct(feed, componentType, product) {
   const specParts = variants.map(value => componentType === "DECK" && /^\d(?:[.,]\d+)?$/.test(value) ? `${value}"` : value)
   const description = String(product.description_short || "").replace(/<[^>]*>/g, " ")
   const price = Number(product.price_amount ?? String(product.price || "").replace(/[^\d,.]/g, "").replace(",", "."))
+  const regularPrice = optionalRegularPrice(
+    product.regular_price_amount
+      ?? product.price_without_reduction
+      ?? product.regular_price,
+    price
+  )
   const id = product.id_product || product.id
   const variantId = product.id_product_attribute || ""
   const item = {
@@ -230,6 +259,7 @@ export function normalizePrestaProduct(feed, componentType, product) {
     productUrl: product.url || product.canonical_url || product.link || "",
     shop: feed.shop,
     price,
+    ...(regularPrice ? { regularPrice } : {}),
     currency: "EUR",
     inStock: true,
     quantityForSetup: componentType === "TRUCKS" ? 2 : 1,
@@ -246,6 +276,7 @@ export function normalizeHtmlProduct(feed, componentType, product) {
   }
 
   const price = Number(product.price)
+  const regularPrice = optionalRegularPrice(product.regularPrice, price)
   if (!Number.isFinite(price) || price <= 0 || !product.imageUrl || !product.productUrl || !product.name) {
     return []
   }
@@ -261,6 +292,7 @@ export function normalizeHtmlProduct(feed, componentType, product) {
     productUrl: product.productUrl,
     shop: feed.shop,
     price,
+    ...(regularPrice ? { regularPrice } : {}),
     currency: "EUR",
     inStock: true,
     quantityForSetup: componentType === "TRUCKS" ? 2 : 1,
@@ -281,6 +313,14 @@ export function normalizeBigCartelProduct(feed, product) {
 
   return availableOptions.map(option => {
     const optionLabel = option.name && plain(option.name) !== plain(product.name) ? option.name : ""
+    const price = Number(option.price ?? product.price)
+    const regularPrice = optionalRegularPrice(
+      option.compare_at_price
+        ?? option.original_price
+        ?? product.compare_at_price
+        ?? product.original_price,
+      price
+    )
     const item = {
       id: `${feed.id}:bigcartel:${option.id || product.id}`,
       source: feed.id,
@@ -291,7 +331,8 @@ export function normalizeBigCartelProduct(feed, product) {
       imageUrl: product.images?.[0]?.url || "",
       productUrl: new URL(product.url || `/product/${product.permalink}`, feed.baseUrl).href,
       shop: feed.shop,
-      price: Number(option.price ?? product.price),
+      price,
+      ...(regularPrice ? { regularPrice } : {}),
       currency: "EUR",
       inStock: true,
       quantityForSetup: componentType === "TRUCKS" ? 2 : 1,

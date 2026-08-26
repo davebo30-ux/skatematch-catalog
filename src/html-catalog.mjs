@@ -119,6 +119,15 @@ function findPrice(card) {
   return Number.NaN
 }
 
+function findRegularPrice(card, currentPrice) {
+  for (const className of ["old-price", "regular-price", "was-price", "price-old"]) {
+    const node = first(card, candidate => hasClass(candidate, className))
+    const amount = parsePrice(nodeText(node))
+    if (Number.isFinite(amount) && amount > currentPrice) return amount
+  }
+  return null
+}
+
 function productLink(card) {
   const named = first(card, node => node.tag === "a" && hasClass(node, "product-item-link", "product-name"))
   if (named) return named
@@ -145,6 +154,7 @@ function extractProduct(card, baseUrl) {
     baseUrl
   )
   const price = findPrice(card)
+  const regularPrice = findRegularPrice(card, price)
   if (!name || !productUrl || !imageUrl || !Number.isFinite(price)) return null
 
   const details = nodeText(card)
@@ -161,6 +171,7 @@ function extractProduct(card, baseUrl) {
     name,
     brand: nodeText(brandNode),
     price,
+    ...(regularPrice ? { regularPrice } : {}),
     productUrl,
     imageUrl,
     details,

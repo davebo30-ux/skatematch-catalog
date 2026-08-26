@@ -31,6 +31,8 @@ Le workflow `.github/workflows/sync-feeds.yml` exécute ces vérifications et ac
 
 Le fichier `data/status.json` présente le nombre d'offres par catégorie, les boutiques actives et celles momentanément indisponibles, sans devoir télécharger l'intégralité du catalogue.
 
+Quand un flux fournit un prix de référence supérieur au prix actuel, le catalogue publie aussi `regularPrice`. L’application peut ainsi afficher uniquement de vraies promotions et calculer leur pourcentage sans inventer de remise.
+
 Les trucks vendus à l’unité indiquent une quantité de deux pour la composition d’un skateboard complet. Les accessoires de nettoyage, lubrifiants, pièces isolées et roulements vendus individuellement sont exclus des recommandations.
 
 Si un shop refuse temporairement le serveur GitHub ou tombe en panne, ses derniers produits valides sont conservés et la source est indiquée comme `stale`, afin d’éviter qu’une boutique entière disparaisse du catalogue.
