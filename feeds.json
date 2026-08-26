@@ -242,5 +242,29 @@
     "categories": {
       "DECK": "/159-skateboards-decks"
     }
+  },
+  {
+    "id": "banks",
+    "shop": "Bank's Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://banks-skateshop.com",
+    "collections": {
+      "DECK": "plateaux",
+      "TRUCKS": "trucks",
+      "WHEELS": "roues",
+      "BEARINGS": "roulements"
+    }
+  },
+  {
+    "id": "zeropolis",
+    "shop": "Zeropolis Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://www.zeropolis-skateshop.com",
+    "collections": {
+      "DECK": "planches",
+      "TRUCKS": "trucks",
+      "WHEELS": "roues",
+      "BEARINGS": "roulements"
+    }
   }
 ]
