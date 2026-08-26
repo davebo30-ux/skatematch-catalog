@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T06:28:25.561Z",
-  "totalOffers": 9039,
+  "generatedAt": "2026-08-26T11:38:44.002Z",
+  "totalOffers": 9483,
   "counts": {
-    "DECK": 4747,
-    "TRUCKS": 1325,
-    "WHEELS": 2641,
-    "BEARINGS": 326
+    "DECK": 5013,
+    "TRUCKS": 1382,
+    "WHEELS": 2722,
+    "BEARINGS": 366
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-26T06:06:58.420Z",
+      "retainedFrom": "2026-08-26T06:28:25.561Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,8 +27,8 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2675,
-      "imported": 598
+      "scanned": 2674,
+      "imported": 597
     },
     {
       "id": "circle",
@@ -69,8 +69,8 @@
       "id": "bass",
       "shop": "Bass Skateshop",
       "status": "ok",
-      "scanned": 218,
-      "imported": 194
+      "scanned": 217,
+      "imported": 193
     },
     {
       "id": "bamboo",
@@ -91,15 +91,16 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-26T06:06:58.420Z",
+      "retainedFrom": "2026-08-26T06:28:25.561Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 270,
-      "imported": 252
+      "status": "stale",
+      "imported": 252,
+      "retainedFrom": "2026-08-26T06:28:25.561Z",
+      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
@@ -147,8 +148,8 @@
       "id": "woodstock",
       "shop": "Woodstock Shop",
       "status": "ok",
-      "scanned": 119,
-      "imported": 92
+      "scanned": 120,
+      "imported": 93
     },
     {
       "id": "shifty",
@@ -169,7 +170,7 @@
       "shop": "Milk Skate Store",
       "status": "ok",
       "scanned": 69,
-      "imported": 40
+      "imported": 42
     },
     {
       "id": "rollernco",
@@ -177,6 +178,20 @@
       "status": "ok",
       "scanned": 240,
       "imported": 116
+    },
+    {
+      "id": "banks",
+      "shop": "Bank's Skateshop",
+      "status": "ok",
+      "scanned": 128,
+      "imported": 131
+    },
+    {
+      "id": "zeropolis",
+      "shop": "Zeropolis Skateshop",
+      "status": "ok",
+      "scanned": 348,
+      "imported": 312
     }
   ],
   "unavailableSources": [
