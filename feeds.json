@@ -266,5 +266,49 @@
       "WHEELS": "roues",
       "BEARINGS": "roulements"
     }
+  },
+  {
+    "id": "streetart",
+    "shop": "Streetart Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://www.streetart.fr",
+    "collections": {
+      "DECK": "planches-de-skate",
+      "TRUCKS": "trucks",
+      "WHEELS": "roues-skate",
+      "BEARINGS": "roulements-skate"
+    }
+  },
+  {
+    "id": "brothercrew",
+    "shop": "Brother Crew Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://brothercrew.fr",
+    "collections": {
+      "TRUCKS": "skateboard-trucks",
+      "WHEELS": "roues-1",
+      "BEARINGS": "roulements"
+    }
+  },
+  {
+    "id": "slide",
+    "shop": "Slide Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://slideskateshop.fr",
+    "collections": {
+      "DECK": "plateaux-de-skate",
+      "TRUCKS": "trucks-de-skates",
+      "WHEELS": "roues-de-skate"
+    }
+  },
+  {
+    "id": "freerideattitude",
+    "shop": "Freeride Attitude",
+    "kind": "prestashop",
+    "baseUrl": "https://www.freeride-attitude.com",
+    "categories": {
+      "DECK": "/67-plateaux-de-skate",
+      "WHEELS": "/78-roues-de-skate"
+    }
   }
 ]
