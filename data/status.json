@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T11:38:44.002Z",
-  "totalOffers": 9483,
+  "generatedAt": "2026-08-27T05:23:21.643Z",
+  "totalOffers": 9491,
   "counts": {
-    "DECK": 5013,
+    "DECK": 5022,
     "TRUCKS": 1382,
     "WHEELS": 2722,
-    "BEARINGS": 366
+    "BEARINGS": 365
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-26T06:28:25.561Z",
+      "retainedFrom": "2026-08-26T11:38:44.002Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -21,27 +21,27 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 249,
-      "imported": 86
+      "imported": 88
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 2674,
-      "imported": 597
+      "imported": 593
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
       "scanned": 507,
-      "imported": 26
+      "imported": 25
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 465,
+      "scanned": 470,
       "imported": 102
     },
     {
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 361,
-      "imported": 357
+      "scanned": 371,
+      "imported": 367
     },
     {
       "id": "bass",
@@ -91,23 +91,22 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-26T06:28:25.561Z",
+      "retainedFrom": "2026-08-26T11:38:44.002Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "stale",
-      "imported": 252,
-      "retainedFrom": "2026-08-26T06:28:25.561Z",
-      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+      "status": "ok",
+      "scanned": 269,
+      "imported": 251
     },
     {
       "id": "official",
       "shop": "Official Skateshop",
       "status": "ok",
       "scanned": 97,
-      "imported": 81
+      "imported": 80
     },
     {
       "id": "jacknroll",
@@ -148,8 +147,8 @@
       "id": "woodstock",
       "shop": "Woodstock Shop",
       "status": "ok",
-      "scanned": 120,
-      "imported": 93
+      "scanned": 124,
+      "imported": 97
     },
     {
       "id": "shifty",
@@ -191,7 +190,7 @@
       "shop": "Zeropolis Skateshop",
       "status": "ok",
       "scanned": 348,
-      "imported": 312
+      "imported": 311
     }
   ],
   "unavailableSources": [
