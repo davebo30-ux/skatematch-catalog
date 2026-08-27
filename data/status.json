@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-27T05:23:21.643Z",
-  "totalOffers": 9491,
+  "generatedAt": "2026-08-27T12:12:14.202Z",
+  "totalOffers": 9758,
   "counts": {
-    "DECK": 5022,
-    "TRUCKS": 1382,
-    "WHEELS": 2722,
-    "BEARINGS": 365
+    "DECK": 5144,
+    "TRUCKS": 1408,
+    "WHEELS": 2815,
+    "BEARINGS": 391
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-26T11:38:44.002Z",
+      "retainedFrom": "2026-08-27T05:23:21.643Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -21,14 +21,14 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 249,
-      "imported": 88
+      "imported": 86
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 2674,
-      "imported": 593
+      "imported": 592
     },
     {
       "id": "circle",
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 371,
-      "imported": 367
+      "scanned": 390,
+      "imported": 386
     },
     {
       "id": "bass",
@@ -77,7 +77,7 @@
       "shop": "Bamboo Skateshop",
       "status": "ok",
       "scanned": 153,
-      "imported": 149
+      "imported": 148
     },
     {
       "id": "numero4",
@@ -91,15 +91,16 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-26T11:38:44.002Z",
+      "retainedFrom": "2026-08-27T05:23:21.643Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 269,
-      "imported": 251
+      "status": "stale",
+      "imported": 251,
+      "retainedFrom": "2026-08-27T05:23:21.643Z",
+      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
@@ -161,8 +162,8 @@
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "ok",
-      "scanned": 197,
-      "imported": 196
+      "scanned": 196,
+      "imported": 195
     },
     {
       "id": "milk",
@@ -191,6 +192,34 @@
       "status": "ok",
       "scanned": 348,
       "imported": 311
+    },
+    {
+      "id": "streetart",
+      "shop": "Streetart Skateshop",
+      "status": "ok",
+      "scanned": 49,
+      "imported": 50
+    },
+    {
+      "id": "brothercrew",
+      "shop": "Brother Crew Skateshop",
+      "status": "ok",
+      "scanned": 55,
+      "imported": 62
+    },
+    {
+      "id": "slide",
+      "shop": "Slide Skateshop",
+      "status": "ok",
+      "scanned": 102,
+      "imported": 27
+    },
+    {
+      "id": "freerideattitude",
+      "shop": "Freeride Attitude",
+      "status": "ok",
+      "scanned": 121,
+      "imported": 114
     }
   ],
   "unavailableSources": [
