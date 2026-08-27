@@ -108,14 +108,31 @@ export function extractSpecs(componentType, text) {
     const aScale = firstNumber(normalized, /\b(\d{2,3})\s*[ad]\b/, 70, 105)
     const bScale = firstNumber(normalized, /\b(\d{2})\s*b\b/, 70, 85)
     const hardness = aScale || (bScale ? bScale + 20 : null)
+    const width = firstNumber(normalized, /\b(?:width|largeur)\s*[: -]?\s*(\d{2}(?:[.,]\d+)?)\s*mm\b/, 20, 60)
     if (diameter) specs.diameterMm = diameter
     if (hardness) specs.hardnessA = hardness
+    if (width) specs.widthMm = width
   }
 
   if (componentType === "DECK") {
     const width = firstNumber(normalized, /\b(\d{1,2}(?:[.,]\d{1,3})?)\s*(?:"|”|″|inches?\b|inch\b)/, 6, 12)
       || firstNumber(normalized, /\b((?:7|8|9|10)[.,]\d{1,3})\b/, 6, 12)
+    const dimensionPair = normalized.match(/\b(\d{1,2}(?:[.,]\d{1,3})?)\s*(?:"|”|″)?\s*[x×]\s*(\d{2}(?:[.,]\d{1,3})?)\b/)
+    const length = dimensionPair ? Number(dimensionPair[2].replace(",", ".")) : null
+    const wheelbase = firstNumber(normalized, /\bwheelbase\s*[: -]?\s*(\d{1,2}(?:[.,]\d{1,3})?)/, 11, 18)
+    const concaveMatch = normalized.match(/\b(?:concave|concavity)\s*[: -]?\s*(low|mellow|medium|mid|high|steep|faible|moyen|fort)\b/)
+      || normalized.match(/\b(low|mellow|medium|mid|high|steep|faible|moyen|fort)\s+(?:concave|concavity)\b/)
+    const concaveLabels = {
+      low: "Low", mellow: "Low", faible: "Low",
+      medium: "Medium", mid: "Medium", moyen: "Medium",
+      high: "High", steep: "High", fort: "High"
+    }
+    const ply = normalized.match(/\b([7-9])\s*(?:ply|plies|plis)\b/)
     if (width) specs.widthInches = width
+    if (length >= 26 && length <= 36) specs.lengthInches = length
+    if (wheelbase) specs.wheelbaseInches = wheelbase
+    if (concaveMatch) specs.concave = concaveLabels[concaveMatch[1]]
+    if (ply) specs.construction = `${ply[1]} plis`
   }
 
   if (componentType === "TRUCKS") {
@@ -124,7 +141,9 @@ export function extractSpecs(componentType, text) {
     const axleWidth = firstNumber(normalized, /\b(\d{1,2}(?:[.,]\d{1,3})?)\s*(?:"|”|″|inches?\b|inch\b)/, 6, 12)
     if (axleWidth) specs.axleWidthInches = axleWidth
     const hangerWidth = firstNumber(normalized, /(?:^|\s)(5(?:[.,](?:0|00|25|5|50|75))?|6(?:[.,](?:0|00))?)(?:\s|$)/, 4, 7)
+    const profile = normalized.match(/\b(low|mid|medium|high)\b/)
     if (hangerWidth) specs.hangerWidthInches = hangerWidth
+    if (profile) specs.profile = profile[1] === "medium" ? "Mid" : profile[1][0].toUpperCase() + profile[1].slice(1)
   }
 
   if (componentType === "BEARINGS") {
@@ -132,6 +151,9 @@ export function extractSpecs(componentType, text) {
     if (abec) specs.rating = `ABEC ${abec[1]}`
     else if (/\bswiss\b/.test(normalized)) specs.rating = "Swiss"
     else if (/\b(skate rated|reds)\b/.test(normalized)) specs.rating = "Skate Rated"
+    if (/\b(ceramic|ceramique)\b/.test(normalized)) specs.material = "Céramique"
+    else if (/\b(steel|acier)\b/.test(normalized)) specs.material = "Acier"
+    if (/\b(removable|amovible)\b/.test(normalized)) specs.shield = "Amovible"
   }
 
   return specs
