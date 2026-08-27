@@ -38,6 +38,20 @@ test("extrait diamètre, dureté, largeur et ABEC", () => {
   assert.deepEqual(extractSpecs("BEARINGS", "Andale ABEC 7"), { rating: "ABEC 7" })
   assert.deepEqual(extractSpecs("BEARINGS", "Enuff ABEC-7 pack de 8"), { rating: "ABEC 7" })
   assert.deepEqual(extractSpecs("WHEELS", "Quasi Protothane 53mm 83B"), { diameterMm: 53, hardnessA: 103 })
+  assert.deepEqual(
+    extractSpecs("DECK", "Real Ishod Twin Tail 8.5 x 31.85 wheelbase 14.25 medium concave 7 ply"),
+    {
+      widthInches: 8.5,
+      lengthInches: 31.85,
+      wheelbaseInches: 14.25,
+      concave: "Medium",
+      construction: "7 plis"
+    }
+  )
+  assert.deepEqual(
+    extractSpecs("BEARINGS", "Roulements Swiss Ceramic bouclier amovible"),
+    { rating: "Swiss", material: "Céramique", shield: "Amovible" }
+  )
 })
 
 test("normalise une variante Shopify disponible avec son lien shop", () => {
