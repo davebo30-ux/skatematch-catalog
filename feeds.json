@@ -310,5 +310,14 @@
       "DECK": "/67-plateaux-de-skate",
       "WHEELS": "/78-roues-de-skate"
     }
+  },
+  {
+    "id": "outside",
+    "shop": "Outside Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.outside-shop.com",
+    "categories": {
+      "DECK": "/fr/41-plateaux-de-skateboard-planches-de-skate"
+    }
   }
 ]
