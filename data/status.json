@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-27T12:12:14.202Z",
-  "totalOffers": 9758,
+  "generatedAt": "2026-08-28T01:31:51.776Z",
+  "totalOffers": 9774,
   "counts": {
-    "DECK": 5144,
-    "TRUCKS": 1408,
-    "WHEELS": 2815,
-    "BEARINGS": 391
+    "DECK": 5137,
+    "TRUCKS": 1413,
+    "WHEELS": 2826,
+    "BEARINGS": 398
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-27T05:23:21.643Z",
+      "retainedFrom": "2026-08-27T12:12:14.202Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,21 +27,21 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2674,
-      "imported": 592
+      "scanned": 2673,
+      "imported": 589
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
       "scanned": 507,
-      "imported": 25
+      "imported": 24
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 470,
+      "scanned": 473,
       "imported": 102
     },
     {
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 390,
-      "imported": 386
+      "scanned": 414,
+      "imported": 410
     },
     {
       "id": "bass",
@@ -76,8 +76,8 @@
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 153,
-      "imported": 148
+      "scanned": 152,
+      "imported": 147
     },
     {
       "id": "numero4",
@@ -91,7 +91,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-27T05:23:21.643Z",
+      "retainedFrom": "2026-08-27T12:12:14.202Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -99,8 +99,8 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 251,
-      "retainedFrom": "2026-08-27T05:23:21.643Z",
-      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+      "retainedFrom": "2026-08-27T12:12:14.202Z",
+      "message": "fetch failed"
     },
     {
       "id": "official",
@@ -162,8 +162,8 @@
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "ok",
-      "scanned": 196,
-      "imported": 195
+      "scanned": 195,
+      "imported": 194
     },
     {
       "id": "milk",
@@ -183,8 +183,8 @@
       "id": "banks",
       "shop": "Bank's Skateshop",
       "status": "ok",
-      "scanned": 128,
-      "imported": 131
+      "scanned": 127,
+      "imported": 130
     },
     {
       "id": "zeropolis",
@@ -198,7 +198,7 @@
       "shop": "Streetart Skateshop",
       "status": "ok",
       "scanned": 49,
-      "imported": 50
+      "imported": 49
     },
     {
       "id": "brothercrew",
