@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-29T05:06:00.099Z",
-  "totalOffers": 9782,
+  "generatedAt": "2026-08-29T11:41:31.578Z",
+  "totalOffers": 9872,
   "counts": {
-    "DECK": 5155,
-    "TRUCKS": 1410,
-    "WHEELS": 2819,
-    "BEARINGS": 398
+    "DECK": 5210,
+    "TRUCKS": 1426,
+    "WHEELS": 2832,
+    "BEARINGS": 404
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-28T21:57:26.758Z",
+      "retainedFrom": "2026-08-29T05:06:00.099Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -21,20 +21,20 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 249,
-      "imported": 86
+      "imported": 87
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 2622,
-      "imported": 587
+      "imported": 586
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 506,
+      "scanned": 508,
       "imported": 24
     },
     {
@@ -62,22 +62,22 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 404,
-      "imported": 400
+      "scanned": 398,
+      "imported": 394
     },
     {
       "id": "bass",
       "shop": "Bass Skateshop",
       "status": "ok",
-      "scanned": 217,
-      "imported": 193
+      "scanned": 215,
+      "imported": 191
     },
     {
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 152,
-      "imported": 147
+      "scanned": 148,
+      "imported": 144
     },
     {
       "id": "numero4",
@@ -91,16 +91,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-28T21:57:26.758Z",
+      "retainedFrom": "2026-08-29T05:06:00.099Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "stale",
-      "imported": 251,
-      "retainedFrom": "2026-08-28T21:57:26.758Z",
-      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+      "status": "ok",
+      "scanned": 268,
+      "imported": 250
     },
     {
       "id": "official",
@@ -155,8 +154,8 @@
       "id": "shifty",
       "shop": "Shifty Board Shop",
       "status": "ok",
-      "scanned": 45,
-      "imported": 45
+      "scanned": 44,
+      "imported": 44
     },
     {
       "id": "nozbone",
@@ -169,8 +168,8 @@
       "id": "milk",
       "shop": "Milk Skate Store",
       "status": "ok",
-      "scanned": 69,
-      "imported": 42
+      "scanned": 68,
+      "imported": 41
     },
     {
       "id": "rollernco",
@@ -183,8 +182,8 @@
       "id": "banks",
       "shop": "Bank's Skateshop",
       "status": "ok",
-      "scanned": 127,
-      "imported": 129
+      "scanned": 130,
+      "imported": 132
     },
     {
       "id": "zeropolis",
@@ -227,6 +226,13 @@
       "status": "ok",
       "scanned": 24,
       "imported": 24
+    },
+    {
+      "id": "kids",
+      "shop": "Kid's Skateshop",
+      "status": "ok",
+      "scanned": 101,
+      "imported": 101
     }
   ],
   "unavailableSources": [
@@ -235,6 +241,12 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "403 Forbidden · https://www.snowbeach.com/snowbeach/skateboards/planches.html"
+    },
+    {
+      "id": "play",
+      "shop": "PLAY Skateshop",
+      "status": "error",
+      "message": "403 Forbidden · https://www.playskateshop.com/fr/62-planches-de-skate?ajax=1&page=1&resultsPerPage=100"
     }
   ]
 }
