@@ -319,5 +319,29 @@
     "categories": {
       "DECK": "/fr/41-plateaux-de-skateboard-planches-de-skate"
     }
+  },
+  {
+    "id": "play",
+    "shop": "PLAY Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.playskateshop.com",
+    "categories": {
+      "DECK": "/fr/62-planches-de-skate",
+      "TRUCKS": "/fr/63-trucks",
+      "WHEELS": "/fr/64-roues",
+      "BEARINGS": "/fr/65-roulements"
+    }
+  },
+  {
+    "id": "kids",
+    "shop": "Kid's Skateshop",
+    "kind": "woocommerce",
+    "baseUrl": "https://www.kidskateshop.com",
+    "categories": {
+      "DECK": 156,
+      "TRUCKS": 151,
+      "WHEELS": 162,
+      "BEARINGS": 159
+    }
   }
 ]
