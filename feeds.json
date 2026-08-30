@@ -331,5 +331,26 @@
       "WHEELS": 162,
       "BEARINGS": 159
     }
+  },
+  {
+    "id": "drdeck",
+    "shop": "Dr. Deck Skateshop",
+    "kind": "shopify",
+    "baseUrl": "https://drdeck.fr",
+    "collections": {
+      "TRUCKS": "trucks-skate",
+      "BEARINGS": "roulements-skate"
+    }
+  },
+  {
+    "id": "vega",
+    "shop": "Vega Skateshop",
+    "kind": "woocommerce",
+    "baseUrl": "https://vegaskateshop.fr",
+    "categories": {
+      "TRUCKS": 179,
+      "WHEELS": 211,
+      "BEARINGS": 43
+    }
   }
 ]
