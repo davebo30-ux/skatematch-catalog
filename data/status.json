@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-30T17:06:48.279Z",
-  "totalOffers": 10034,
+  "generatedAt": "2026-08-31T05:06:18.903Z",
+  "totalOffers": 10031,
   "counts": {
-    "DECK": 5205,
+    "DECK": 5203,
     "TRUCKS": 1498,
     "WHEELS": 2895,
-    "BEARINGS": 436
+    "BEARINGS": 435
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 661,
-      "retainedFrom": "2026-08-30T11:35:13.921Z",
+      "retainedFrom": "2026-08-30T17:06:48.279Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 393,
-      "imported": 389
+      "scanned": 392,
+      "imported": 388
     },
     {
       "id": "bass",
@@ -84,14 +84,14 @@
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
       "scanned": 3530,
-      "imported": 3474
+      "imported": 3473
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-30T11:35:13.921Z",
+      "retainedFrom": "2026-08-30T17:06:48.279Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -245,8 +245,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 154,
-      "imported": 151
+      "scanned": 153,
+      "imported": 150
     }
   ],
   "unavailableSources": [
