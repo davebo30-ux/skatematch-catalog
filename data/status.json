@@ -1,20 +1,19 @@
 {
-  "generatedAt": "2026-09-01T05:09:31.929Z",
-  "totalOffers": 10045,
+  "generatedAt": "2026-09-01T11:48:58.297Z",
+  "totalOffers": 10101,
   "counts": {
-    "DECK": 5220,
-    "TRUCKS": 1500,
-    "WHEELS": 2887,
-    "BEARINGS": 438
+    "DECK": 5224,
+    "TRUCKS": 1528,
+    "WHEELS": 2889,
+    "BEARINGS": 460
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
-      "status": "stale",
-      "imported": 661,
-      "retainedFrom": "2026-08-31T17:06:59.746Z",
-      "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
+      "status": "ok",
+      "scanned": 662,
+      "imported": 651
     },
     {
       "id": "wallstreet",
@@ -27,21 +26,21 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2597,
-      "imported": 600
+      "scanned": 2599,
+      "imported": 599
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 480,
+      "scanned": 481,
       "imported": 24
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 501,
+      "scanned": 504,
       "imported": 102
     },
     {
@@ -62,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 381,
-      "imported": 377
+      "scanned": 379,
+      "imported": 375
     },
     {
       "id": "bass",
@@ -91,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-08-31T17:06:59.746Z",
+      "retainedFrom": "2026-09-01T05:09:31.929Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -245,8 +244,15 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 153,
-      "imported": 150
+      "scanned": 151,
+      "imported": 148
+    },
+    {
+      "id": "albp",
+      "shop": "A La Bonne Planchette",
+      "status": "ok",
+      "scanned": 72,
+      "imported": 71
     }
   ],
   "unavailableSources": [
