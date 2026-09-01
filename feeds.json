@@ -352,5 +352,17 @@
       "WHEELS": 211,
       "BEARINGS": 43
     }
+  },
+  {
+    "id": "albp",
+    "shop": "A La Bonne Planchette",
+    "kind": "html",
+    "baseUrl": "https://alabonneplanchette.fr",
+    "maxPages": 1,
+    "categories": {
+      "DECK": "/10000028-planches",
+      "TRUCKS": "/10000030-trucks",
+      "BEARINGS": "/10000051-roulements"
+    }
   }
 ]
