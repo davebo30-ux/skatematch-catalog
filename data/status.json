@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-02T05:10:00.064Z",
-  "totalOffers": 10090,
+  "generatedAt": "2026-09-02T11:47:46.264Z",
+  "totalOffers": 10095,
   "counts": {
-    "DECK": 5216,
+    "DECK": 5218,
     "TRUCKS": 1525,
-    "WHEELS": 2891,
-    "BEARINGS": 458
+    "WHEELS": 2889,
+    "BEARINGS": 463
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 652,
-      "imported": 641
+      "scanned": 649,
+      "imported": 638
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 242,
-      "imported": 88
+      "imported": 90
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2599,
+      "scanned": 2600,
       "imported": 607
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 482,
+      "scanned": 483,
       "imported": 23
     },
     {
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 366,
-      "imported": 362
+      "scanned": 371,
+      "imported": 367
     },
     {
       "id": "bass",
@@ -83,22 +83,23 @@
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
       "scanned": 3530,
-      "imported": 3471
+      "imported": 3469
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-01T17:10:13.975Z",
+      "retainedFrom": "2026-09-02T05:10:00.064Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 266,
-      "imported": 248
+      "status": "stale",
+      "imported": 248,
+      "retainedFrom": "2026-09-02T05:10:00.064Z",
+      "message": "fetch failed"
     },
     {
       "id": "official",
@@ -161,7 +162,7 @@
       "shop": "Nozbone Skateshop",
       "status": "stale",
       "imported": 192,
-      "retainedFrom": "2026-09-01T17:10:13.975Z",
+      "retainedFrom": "2026-09-02T05:10:00.064Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -217,8 +218,8 @@
       "id": "freerideattitude",
       "shop": "Freeride Attitude",
       "status": "ok",
-      "scanned": 120,
-      "imported": 113
+      "scanned": 119,
+      "imported": 112
     },
     {
       "id": "outside",
@@ -245,8 +246,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 151,
-      "imported": 148
+      "scanned": 150,
+      "imported": 147
     },
     {
       "id": "albp",
@@ -254,6 +255,13 @@
       "status": "ok",
       "scanned": 72,
       "imported": 71
+    },
+    {
+      "id": "independentskateshop",
+      "shop": "Independent Skateshop",
+      "status": "ok",
+      "scanned": 5,
+      "imported": 5
     }
   ],
   "unavailableSources": [
