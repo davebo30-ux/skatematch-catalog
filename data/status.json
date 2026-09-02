@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T17:10:13.975Z",
-  "totalOffers": 10081,
+  "generatedAt": "2026-09-02T05:10:00.064Z",
+  "totalOffers": 10090,
   "counts": {
-    "DECK": 5206,
+    "DECK": 5216,
     "TRUCKS": 1525,
-    "WHEELS": 2892,
+    "WHEELS": 2891,
     "BEARINGS": 458
   },
   "sources": [
@@ -12,15 +12,15 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 653,
-      "imported": 642
+      "scanned": 652,
+      "imported": 641
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 242,
-      "imported": 79
+      "imported": 88
     },
     {
       "id": "buzzz",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 367,
-      "imported": 363
+      "scanned": 366,
+      "imported": 362
     },
     {
       "id": "bass",
@@ -83,14 +83,14 @@
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
       "scanned": 3530,
-      "imported": 3473
+      "imported": 3471
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-01T11:48:58.297Z",
+      "retainedFrom": "2026-09-01T17:10:13.975Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -132,8 +132,8 @@
       "id": "born2ride",
       "shop": "Born2ride",
       "status": "ok",
-      "scanned": 84,
-      "imported": 84
+      "scanned": 87,
+      "imported": 88
     },
     {
       "id": "pereskateur",
@@ -161,7 +161,7 @@
       "shop": "Nozbone Skateshop",
       "status": "stale",
       "imported": 192,
-      "retainedFrom": "2026-09-01T11:48:58.297Z",
+      "retainedFrom": "2026-09-01T17:10:13.975Z",
       "message": "The operation was aborted due to timeout"
     },
     {
