@@ -364,5 +364,14 @@
       "TRUCKS": "/10000030-trucks",
       "BEARINGS": "/10000051-roulements"
     }
+  },
+  {
+    "id": "independentskateshop",
+    "shop": "Independent Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.independent-skateshop.com",
+    "categories": {
+      "BEARINGS": "/fr/roulements-skate/?ajax=1&q=Marque-Bronson&"
+    }
   }
 ]
