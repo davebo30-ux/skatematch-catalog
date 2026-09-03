@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-02T17:10:34.037Z",
+  "generatedAt": "2026-09-03T05:40:21.925Z",
   "totalOffers": 10106,
   "counts": {
-    "DECK": 5223,
+    "DECK": 5224,
     "TRUCKS": 1526,
-    "WHEELS": 2891,
+    "WHEELS": 2890,
     "BEARINGS": 466
   },
   "sources": [
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 649,
-      "imported": 637
+      "scanned": 647,
+      "imported": 635
     },
     {
       "id": "wallstreet",
@@ -90,15 +90,16 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-02T11:47:46.264Z",
+      "retainedFrom": "2026-09-02T17:10:34.037Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 266,
-      "imported": 248
+      "status": "stale",
+      "imported": 248,
+      "retainedFrom": "2026-09-02T17:10:34.037Z",
+      "message": "500 Internal Server Error · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
@@ -167,8 +168,8 @@
       "id": "milk",
       "shop": "Milk Skate Store",
       "status": "ok",
-      "scanned": 66,
-      "imported": 39
+      "scanned": 68,
+      "imported": 41
     },
     {
       "id": "rollernco",
