@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-03T17:10:03.587Z",
-  "totalOffers": 10127,
+  "generatedAt": "2026-09-04T05:09:53.893Z",
+  "totalOffers": 10150,
   "counts": {
-    "DECK": 5218,
-    "TRUCKS": 1530,
-    "WHEELS": 2911,
+    "DECK": 5221,
+    "TRUCKS": 1537,
+    "WHEELS": 2924,
     "BEARINGS": 468
   },
   "sources": [
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 655,
-      "imported": 644
+      "scanned": 679,
+      "imported": 668
     },
     {
       "id": "wallstreet",
@@ -90,15 +90,16 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-03T05:40:21.925Z",
+      "retainedFrom": "2026-09-03T17:10:03.587Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 272,
-      "imported": 247
+      "status": "stale",
+      "imported": 247,
+      "retainedFrom": "2026-09-03T17:10:03.587Z",
+      "message": "500 Internal Server Error · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
@@ -161,7 +162,7 @@
       "shop": "Nozbone Skateshop",
       "status": "stale",
       "imported": 191,
-      "retainedFrom": "2026-09-03T05:40:21.925Z",
+      "retainedFrom": "2026-09-03T17:10:03.587Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -232,7 +233,7 @@
       "shop": "Kid's Skateshop",
       "status": "ok",
       "scanned": 100,
-      "imported": 100
+      "imported": 99
     },
     {
       "id": "drdeck",
