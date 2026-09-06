@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-06T05:09:41.617Z",
-  "totalOffers": 10114,
+  "generatedAt": "2026-09-06T17:08:46.712Z",
+  "totalOffers": 10112,
   "counts": {
-    "DECK": 5198,
-    "TRUCKS": 1536,
-    "WHEELS": 2914,
-    "BEARINGS": 466
+    "DECK": 5195,
+    "TRUCKS": 1535,
+    "WHEELS": 2913,
+    "BEARINGS": 469
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 701,
-      "imported": 690
+      "scanned": 703,
+      "imported": 692
     },
     {
       "id": "wallstreet",
@@ -26,7 +26,7 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2604,
+      "scanned": 2592,
       "imported": 598
     },
     {
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 386,
-      "imported": 383
+      "scanned": 384,
+      "imported": 381
     },
     {
       "id": "bass",
@@ -90,16 +90,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-05T17:09:15.992Z",
+      "retainedFrom": "2026-09-06T05:09:41.617Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "stale",
-      "imported": 243,
-      "retainedFrom": "2026-09-05T17:09:15.992Z",
-      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
+      "status": "ok",
+      "scanned": 268,
+      "imported": 243
     },
     {
       "id": "official",
@@ -189,8 +188,8 @@
       "id": "zeropolis",
       "shop": "Zeropolis Skateshop",
       "status": "ok",
-      "scanned": 354,
-      "imported": 318
+      "scanned": 353,
+      "imported": 317
     },
     {
       "id": "streetart",
@@ -245,8 +244,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 148,
-      "imported": 145
+      "scanned": 147,
+      "imported": 144
     },
     {
       "id": "albp",
@@ -258,10 +257,9 @@
     {
       "id": "independentskateshop",
       "shop": "Independent Skateshop",
-      "status": "stale",
-      "imported": 5,
-      "retainedFrom": "2026-09-05T17:09:15.992Z",
-      "message": "fetch failed"
+      "status": "ok",
+      "scanned": 5,
+      "imported": 5
     }
   ],
   "unavailableSources": [
