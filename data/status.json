@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-06T17:08:46.712Z",
-  "totalOffers": 10112,
+  "generatedAt": "2026-09-07T05:10:09.574Z",
+  "totalOffers": 10111,
   "counts": {
-    "DECK": 5195,
+    "DECK": 5194,
     "TRUCKS": 1535,
     "WHEELS": 2913,
     "BEARINGS": 469
@@ -83,22 +83,23 @@
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
       "scanned": 3530,
-      "imported": 3427
+      "imported": 3426
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-06T05:09:41.617Z",
+      "retainedFrom": "2026-09-06T17:08:46.712Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 268,
-      "imported": 243
+      "status": "stale",
+      "imported": 243,
+      "retainedFrom": "2026-09-06T17:08:46.712Z",
+      "message": "fetch failed"
     },
     {
       "id": "official",
