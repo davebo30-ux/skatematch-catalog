@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-07T05:10:09.574Z",
-  "totalOffers": 10111,
+  "generatedAt": "2026-09-07T17:09:55.904Z",
+  "totalOffers": 10171,
   "counts": {
-    "DECK": 5194,
-    "TRUCKS": 1535,
-    "WHEELS": 2913,
-    "BEARINGS": 469
+    "DECK": 5215,
+    "TRUCKS": 1553,
+    "WHEELS": 2932,
+    "BEARINGS": 471
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 703,
-      "imported": 692
+      "scanned": 735,
+      "imported": 726
     },
     {
       "id": "wallstreet",
@@ -26,8 +26,8 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2592,
-      "imported": 598
+      "scanned": 2594,
+      "imported": 589
     },
     {
       "id": "circle",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 384,
-      "imported": 381
+      "scanned": 409,
+      "imported": 406
     },
     {
       "id": "bass",
@@ -82,15 +82,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3530,
-      "imported": 3426
+      "scanned": 3535,
+      "imported": 3436
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-06T17:08:46.712Z",
+      "retainedFrom": "2026-09-07T05:10:09.574Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,8 +98,8 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-06T17:08:46.712Z",
-      "message": "fetch failed"
+      "retainedFrom": "2026-09-07T05:10:09.574Z",
+      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
