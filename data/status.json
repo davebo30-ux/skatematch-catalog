@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-07T17:09:55.904Z",
-  "totalOffers": 10171,
+  "generatedAt": "2026-09-08T05:10:05.969Z",
+  "totalOffers": 10176,
   "counts": {
-    "DECK": 5215,
-    "TRUCKS": 1553,
-    "WHEELS": 2932,
+    "DECK": 5219,
+    "TRUCKS": 1555,
+    "WHEELS": 2931,
     "BEARINGS": 471
   },
   "sources": [
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 409,
-      "imported": 406
+      "scanned": 408,
+      "imported": 405
     },
     {
       "id": "bass",
@@ -82,15 +82,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3535,
-      "imported": 3436
+      "scanned": 3554,
+      "imported": 3442
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-07T05:10:09.574Z",
+      "retainedFrom": "2026-09-07T17:09:55.904Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-07T05:10:09.574Z",
+      "retainedFrom": "2026-09-07T17:09:55.904Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
