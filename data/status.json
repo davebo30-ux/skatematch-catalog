@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-08T05:10:05.969Z",
-  "totalOffers": 10176,
+  "generatedAt": "2026-09-08T17:10:34.349Z",
+  "totalOffers": 10198,
   "counts": {
-    "DECK": 5219,
-    "TRUCKS": 1555,
-    "WHEELS": 2931,
-    "BEARINGS": 471
+    "DECK": 5221,
+    "TRUCKS": 1563,
+    "WHEELS": 2942,
+    "BEARINGS": 472
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 735,
-      "imported": 726
+      "scanned": 734,
+      "imported": 725
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
-      "scanned": 242,
-      "imported": 96
+      "scanned": 241,
+      "imported": 93
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2594,
-      "imported": 589
+      "scanned": 2600,
+      "imported": 603
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 511,
+      "scanned": 505,
       "imported": 23
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 509,
+      "scanned": 510,
       "imported": 102
     },
     {
@@ -61,22 +61,22 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 408,
-      "imported": 405
+      "scanned": 417,
+      "imported": 414
     },
     {
       "id": "bass",
       "shop": "Bass Skateshop",
       "status": "ok",
-      "scanned": 211,
-      "imported": 189
+      "scanned": 207,
+      "imported": 185
     },
     {
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 143,
-      "imported": 139
+      "scanned": 145,
+      "imported": 141
     },
     {
       "id": "numero4",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-07T17:09:55.904Z",
+      "retainedFrom": "2026-09-08T05:10:05.969Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-07T17:09:55.904Z",
+      "retainedFrom": "2026-09-08T05:10:05.969Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -112,8 +112,8 @@
       "id": "jacknroll",
       "shop": "Jack'n Roll",
       "status": "ok",
-      "scanned": 47,
-      "imported": 19
+      "scanned": 46,
+      "imported": 18
     },
     {
       "id": "balargue",
@@ -133,8 +133,8 @@
       "id": "born2ride",
       "shop": "Born2ride",
       "status": "ok",
-      "scanned": 113,
-      "imported": 110
+      "scanned": 115,
+      "imported": 115
     },
     {
       "id": "pereskateur",
@@ -168,22 +168,22 @@
       "id": "milk",
       "shop": "Milk Skate Store",
       "status": "ok",
-      "scanned": 73,
-      "imported": 45
+      "scanned": 72,
+      "imported": 44
     },
     {
       "id": "rollernco",
       "shop": "Roller'n Co",
       "status": "ok",
       "scanned": 240,
-      "imported": 116
+      "imported": 113
     },
     {
       "id": "banks",
       "shop": "Bank's Skateshop",
       "status": "ok",
-      "scanned": 131,
-      "imported": 133
+      "scanned": 130,
+      "imported": 132
     },
     {
       "id": "zeropolis",
@@ -224,8 +224,8 @@
       "id": "outside",
       "shop": "Outside Skateshop",
       "status": "ok",
-      "scanned": 24,
-      "imported": 24
+      "scanned": 23,
+      "imported": 23
     },
     {
       "id": "kids",
@@ -245,8 +245,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 147,
-      "imported": 144
+      "scanned": 154,
+      "imported": 151
     },
     {
       "id": "albp",
