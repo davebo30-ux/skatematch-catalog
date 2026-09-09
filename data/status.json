@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-08T17:10:34.349Z",
-  "totalOffers": 10198,
+  "generatedAt": "2026-09-09T05:09:54.416Z",
+  "totalOffers": 10203,
   "counts": {
-    "DECK": 5221,
-    "TRUCKS": 1563,
-    "WHEELS": 2942,
+    "DECK": 5224,
+    "TRUCKS": 1566,
+    "WHEELS": 2941,
     "BEARINGS": 472
   },
   "sources": [
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 417,
-      "imported": 414
+      "scanned": 416,
+      "imported": 413
     },
     {
       "id": "bass",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-08T05:10:05.969Z",
+      "retainedFrom": "2026-09-08T17:10:34.349Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-08T05:10:05.969Z",
+      "retainedFrom": "2026-09-08T17:10:34.349Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -133,8 +133,8 @@
       "id": "born2ride",
       "shop": "Born2ride",
       "status": "ok",
-      "scanned": 115,
-      "imported": 115
+      "scanned": 245,
+      "imported": 121
     },
     {
       "id": "pereskateur",
