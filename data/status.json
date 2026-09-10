@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-09T17:09:29.385Z",
-  "totalOffers": 10200,
+  "generatedAt": "2026-09-10T05:10:07.468Z",
+  "totalOffers": 10205,
   "counts": {
-    "DECK": 5225,
-    "TRUCKS": 1567,
-    "WHEELS": 2939,
+    "DECK": 5230,
+    "TRUCKS": 1568,
+    "WHEELS": 2938,
     "BEARINGS": 469
   },
   "sources": [
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 729,
-      "imported": 720
+      "scanned": 735,
+      "imported": 726
     },
     {
       "id": "wallstreet",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-09T05:09:54.416Z",
+      "retainedFrom": "2026-09-09T17:09:29.385Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-09T05:09:54.416Z",
+      "retainedFrom": "2026-09-09T17:09:29.385Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -245,8 +245,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 153,
-      "imported": 150
+      "scanned": 152,
+      "imported": 149
     },
     {
       "id": "albp",
