@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-12T17:09:18.433Z",
-  "totalOffers": 10192,
+  "generatedAt": "2026-09-13T05:09:54.753Z",
+  "totalOffers": 10190,
   "counts": {
-    "DECK": 5203,
+    "DECK": 5202,
     "TRUCKS": 1567,
-    "WHEELS": 2950,
+    "WHEELS": 2949,
     "BEARINGS": 472
   },
   "sources": [
@@ -12,7 +12,7 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 720,
+      "scanned": 719,
       "imported": 710
     },
     {
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-12T05:09:39.688Z",
+      "retainedFrom": "2026-09-12T17:09:18.433Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,8 +98,8 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-12T05:09:39.688Z",
-      "message": "fetch failed"
+      "retainedFrom": "2026-09-12T17:09:18.433Z",
+      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
@@ -127,7 +127,7 @@
       "shop": "Bird Skateshop",
       "status": "ok",
       "scanned": 213,
-      "imported": 112
+      "imported": 110
     },
     {
       "id": "born2ride",
