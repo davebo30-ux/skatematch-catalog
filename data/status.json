@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-13T17:09:20.559Z",
-  "totalOffers": 10183,
+  "generatedAt": "2026-09-14T05:10:03.180Z",
+  "totalOffers": 10173,
   "counts": {
-    "DECK": 5198,
+    "DECK": 5190,
     "TRUCKS": 1567,
-    "WHEELS": 2947,
-    "BEARINGS": 471
+    "WHEELS": 2946,
+    "BEARINGS": 470
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 719,
-      "imported": 710
+      "scanned": 716,
+      "imported": 707
     },
     {
       "id": "wallstreet",
@@ -83,14 +83,14 @@
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
       "scanned": 3560,
-      "imported": 3446
+      "imported": 3445
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-13T05:09:54.753Z",
+      "retainedFrom": "2026-09-13T17:09:20.559Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-13T05:09:54.753Z",
+      "retainedFrom": "2026-09-13T17:09:20.559Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -106,7 +106,7 @@
       "shop": "Official Skateshop",
       "status": "ok",
       "scanned": 87,
-      "imported": 71
+      "imported": 68
     },
     {
       "id": "jacknroll",
@@ -127,7 +127,7 @@
       "shop": "Bird Skateshop",
       "status": "ok",
       "scanned": 213,
-      "imported": 110
+      "imported": 107
     },
     {
       "id": "born2ride",
