@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T05:10:08.552Z",
-  "totalOffers": 10156,
+  "generatedAt": "2026-09-16T17:09:45.397Z",
+  "totalOffers": 10169,
   "counts": {
-    "DECK": 5170,
-    "TRUCKS": 1567,
-    "WHEELS": 2947,
+    "DECK": 5172,
+    "TRUCKS": 1565,
+    "WHEELS": 2960,
     "BEARINGS": 472
   },
   "sources": [
@@ -12,21 +12,21 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 712,
-      "imported": 702
+      "scanned": 716,
+      "imported": 706
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
-      "scanned": 241,
-      "imported": 86
+      "scanned": 239,
+      "imported": 83
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2637,
+      "scanned": 2639,
       "imported": 608
     },
     {
@@ -40,7 +40,7 @@
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 520,
+      "scanned": 523,
       "imported": 101
     },
     {
@@ -48,7 +48,7 @@
       "shop": "Central Sk8 Shop",
       "status": "ok",
       "scanned": 48,
-      "imported": 19
+      "imported": 18
     },
     {
       "id": "lockwood",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 419,
-      "imported": 416
+      "scanned": 423,
+      "imported": 420
     },
     {
       "id": "bass",
@@ -75,22 +75,22 @@
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 150,
-      "imported": 140
+      "scanned": 146,
+      "imported": 136
     },
     {
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3560,
-      "imported": 3445
+      "scanned": 3559,
+      "imported": 3444
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-15T17:09:46.074Z",
+      "retainedFrom": "2026-09-16T05:10:08.552Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-15T17:09:46.074Z",
+      "retainedFrom": "2026-09-16T05:10:08.552Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -111,9 +111,10 @@
     {
       "id": "jacknroll",
       "shop": "Jack'n Roll",
-      "status": "ok",
-      "scanned": 46,
-      "imported": 18
+      "status": "stale",
+      "imported": 17,
+      "retainedFrom": "2026-09-16T05:10:08.552Z",
+      "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
       "id": "balargue",
@@ -161,8 +162,8 @@
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "ok",
-      "scanned": 191,
-      "imported": 190
+      "scanned": 208,
+      "imported": 207
     },
     {
       "id": "milk",
@@ -176,21 +177,21 @@
       "shop": "Roller'n Co",
       "status": "ok",
       "scanned": 240,
-      "imported": 109
+      "imported": 108
     },
     {
       "id": "banks",
       "shop": "Bank's Skateshop",
       "status": "ok",
       "scanned": 127,
-      "imported": 127
+      "imported": 126
     },
     {
       "id": "zeropolis",
       "shop": "Zeropolis Skateshop",
       "status": "ok",
-      "scanned": 353,
-      "imported": 316
+      "scanned": 352,
+      "imported": 315
     },
     {
       "id": "streetart",
@@ -260,7 +261,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-15T17:09:46.074Z",
+      "retainedFrom": "2026-09-16T05:10:08.552Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?ajax=1&q=Marque-Bronson&?ajax=1&page=1&resultsPerPage=100"
     }
   ],
