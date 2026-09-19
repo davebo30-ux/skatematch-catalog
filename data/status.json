@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T17:09:41.581Z",
-  "totalOffers": 10174,
+  "generatedAt": "2026-09-19T05:09:30.618Z",
+  "totalOffers": 10171,
   "counts": {
-    "DECK": 5179,
+    "DECK": 5176,
     "TRUCKS": 1566,
     "WHEELS": 2956,
     "BEARINGS": 473
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 714,
-      "imported": 703
+      "scanned": 711,
+      "imported": 700
     },
     {
       "id": "wallstreet",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-18T05:09:44.238Z",
+      "retainedFrom": "2026-09-18T17:09:41.581Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-18T05:09:44.238Z",
+      "retainedFrom": "2026-09-18T17:09:41.581Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-18T05:09:44.238Z",
+      "retainedFrom": "2026-09-18T17:09:41.581Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -261,7 +261,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-18T05:09:44.238Z",
+      "retainedFrom": "2026-09-18T17:09:41.581Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?ajax=1&q=Marque-Bronson&?ajax=1&page=1&resultsPerPage=100"
     }
   ],
