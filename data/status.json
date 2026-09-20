@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T17:08:50.679Z",
-  "totalOffers": 10149,
+  "generatedAt": "2026-09-20T05:10:01.344Z",
+  "totalOffers": 10146,
   "counts": {
-    "DECK": 5162,
+    "DECK": 5159,
     "TRUCKS": 1565,
     "WHEELS": 2952,
     "BEARINGS": 470
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 705,
-      "imported": 694
+      "scanned": 703,
+      "imported": 692
     },
     {
       "id": "wallstreet",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-19T05:09:30.618Z",
+      "retainedFrom": "2026-09-19T17:08:50.679Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-19T05:09:30.618Z",
+      "retainedFrom": "2026-09-19T17:08:50.679Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-19T05:09:30.618Z",
+      "retainedFrom": "2026-09-19T17:08:50.679Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -190,8 +190,8 @@
       "id": "zeropolis",
       "shop": "Zeropolis Skateshop",
       "status": "ok",
-      "scanned": 347,
-      "imported": 310
+      "scanned": 346,
+      "imported": 309
     },
     {
       "id": "streetart",
@@ -261,7 +261,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-19T05:09:30.618Z",
+      "retainedFrom": "2026-09-19T17:08:50.679Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?ajax=1&q=Marque-Bronson&?ajax=1&page=1&resultsPerPage=100"
     }
   ],
