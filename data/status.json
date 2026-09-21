@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-09-21T05:10:08.339Z",
-  "totalOffers": 10132,
+  "generatedAt": "2026-09-21T17:09:04.667Z",
+  "totalOffers": 10148,
   "counts": {
-    "DECK": 5153,
+    "DECK": 5172,
     "TRUCKS": 1565,
-    "WHEELS": 2946,
-    "BEARINGS": 468
+    "WHEELS": 2944,
+    "BEARINGS": 467
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 699,
-      "imported": 688
+      "scanned": 721,
+      "imported": 709
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 238,
-      "imported": 90
+      "imported": 89
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2633,
-      "imported": 594
+      "scanned": 2631,
+      "imported": 592
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 585,
-      "imported": 23
+      "scanned": 510,
+      "imported": 22
     },
     {
       "id": "ollieday",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 423,
-      "imported": 420
+      "scanned": 421,
+      "imported": 418
     },
     {
       "id": "bass",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-20T17:09:31.951Z",
+      "retainedFrom": "2026-09-21T05:10:08.339Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-20T17:09:31.951Z",
+      "retainedFrom": "2026-09-21T05:10:08.339Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-20T17:09:31.951Z",
+      "retainedFrom": "2026-09-21T05:10:08.339Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -162,8 +162,8 @@
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "ok",
-      "scanned": 208,
-      "imported": 207
+      "scanned": 207,
+      "imported": 206
     },
     {
       "id": "milk",
@@ -246,8 +246,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 151,
-      "imported": 148
+      "scanned": 153,
+      "imported": 150
     },
     {
       "id": "albp",
@@ -261,7 +261,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-20T17:09:31.951Z",
+      "retainedFrom": "2026-09-21T05:10:08.339Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?ajax=1&q=Marque-Bronson&?ajax=1&page=1&resultsPerPage=100"
     }
   ],
