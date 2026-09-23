@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-09-23T09:45:00.319Z",
-  "totalOffers": 10177,
+  "generatedAt": "2026-09-23T19:58:39.600Z",
+  "totalOffers": 10174,
   "counts": {
-    "DECK": 5187,
-    "TRUCKS": 1565,
-    "WHEELS": 2957,
-    "BEARINGS": 468
+    "DECK": 5185,
+    "TRUCKS": 1566,
+    "WHEELS": 2953,
+    "BEARINGS": 470
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 716,
-      "imported": 705
+      "scanned": 719,
+      "imported": 708
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 238,
-      "imported": 90
+      "imported": 99
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2586,
-      "imported": 598
+      "scanned": 2585,
+      "imported": 593
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 509,
+      "scanned": 537,
       "imported": 22
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 516,
+      "scanned": 526,
       "imported": 99
     },
     {
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 438,
-      "imported": 435
+      "scanned": 434,
+      "imported": 431
     },
     {
       "id": "bass",
@@ -82,15 +82,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3559,
-      "imported": 3444
+      "scanned": 3560,
+      "imported": 3445
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-22T20:01:09.841Z",
+      "retainedFrom": "2026-09-23T09:45:00.319Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-22T20:01:09.841Z",
+      "retainedFrom": "2026-09-23T09:45:00.319Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -106,14 +106,14 @@
       "shop": "Official Skateshop",
       "status": "ok",
       "scanned": 87,
-      "imported": 66
+      "imported": 65
     },
     {
       "id": "jacknroll",
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-22T20:01:09.841Z",
+      "retainedFrom": "2026-09-23T09:45:00.319Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -135,7 +135,7 @@
       "shop": "Born2ride",
       "status": "ok",
       "scanned": 118,
-      "imported": 118
+      "imported": 116
     },
     {
       "id": "pereskateur",
@@ -169,16 +169,15 @@
       "id": "milk",
       "shop": "Milk Skate Store",
       "status": "ok",
-      "scanned": 77,
-      "imported": 49
+      "scanned": 75,
+      "imported": 47
     },
     {
       "id": "rollernco",
       "shop": "Roller'n Co",
-      "status": "stale",
-      "imported": 107,
-      "retainedFrom": "2026-09-22T20:01:09.841Z",
-      "message": "The operation was aborted due to timeout"
+      "status": "ok",
+      "scanned": 240,
+      "imported": 107
     },
     {
       "id": "banks",
@@ -247,8 +246,8 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 154,
-      "imported": 151
+      "scanned": 152,
+      "imported": 149
     },
     {
       "id": "albp",
@@ -262,7 +261,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-22T20:01:09.841Z",
+      "retainedFrom": "2026-09-23T09:45:00.319Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?ajax=1&q=Marque-Bronson&?ajax=1&page=1&resultsPerPage=100"
     }
   ],
