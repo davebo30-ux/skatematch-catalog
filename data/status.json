@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-22T20:01:09.841Z",
-  "totalOffers": 10171,
+  "generatedAt": "2026-09-23T09:45:00.319Z",
+  "totalOffers": 10177,
   "counts": {
-    "DECK": 5190,
+    "DECK": 5187,
     "TRUCKS": 1565,
-    "WHEELS": 2949,
-    "BEARINGS": 467
+    "WHEELS": 2957,
+    "BEARINGS": 468
   },
   "sources": [
     {
@@ -27,7 +27,7 @@
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 2586,
-      "imported": 591
+      "imported": 598
     },
     {
       "id": "circle",
@@ -68,7 +68,7 @@
       "id": "bass",
       "shop": "Bass Skateshop",
       "status": "ok",
-      "scanned": 208,
+      "scanned": 207,
       "imported": 188
     },
     {
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-22T09:38:37.764Z",
+      "retainedFrom": "2026-09-22T20:01:09.841Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-22T09:38:37.764Z",
+      "retainedFrom": "2026-09-22T20:01:09.841Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-22T09:38:37.764Z",
+      "retainedFrom": "2026-09-22T20:01:09.841Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -170,14 +170,15 @@
       "shop": "Milk Skate Store",
       "status": "ok",
       "scanned": 77,
-      "imported": 50
+      "imported": 49
     },
     {
       "id": "rollernco",
       "shop": "Roller'n Co",
-      "status": "ok",
-      "scanned": 240,
-      "imported": 107
+      "status": "stale",
+      "imported": 107,
+      "retainedFrom": "2026-09-22T20:01:09.841Z",
+      "message": "The operation was aborted due to timeout"
     },
     {
       "id": "banks",
@@ -261,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-22T09:38:37.764Z",
+      "retainedFrom": "2026-09-22T20:01:09.841Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?ajax=1&q=Marque-Bronson&?ajax=1&page=1&resultsPerPage=100"
     }
   ],
