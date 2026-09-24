@@ -371,7 +371,46 @@
     "kind": "prestashop",
     "baseUrl": "https://www.independent-skateshop.com",
     "categories": {
-      "BEARINGS": "/fr/roulements-skate/?ajax=1&q=Marque-Bronson&"
+      "BEARINGS": "/fr/roulements-skate/?q=Marque-Bronson"
+    }
+  },
+  {
+    "id": "fulkit",
+    "shop": "Fulkit Skateshop",
+    "kind": "html",
+    "baseUrl": "https://fulkit-skateboards.com",
+    "maxPages": 15,
+    "categories": {
+      "DECK": "/fr/263-planche-skateboard",
+      "TRUCKS": "/fr/267-trucks-skateboard",
+      "WHEELS": "/fr/259-roues-skateboard",
+      "BEARINGS": "/fr/182-roulements"
+    }
+  },
+  {
+    "id": "skatefr",
+    "shop": "Skate.fr",
+    "kind": "html",
+    "baseUrl": "https://skate.fr",
+    "maxPages": 1,
+    "categories": {
+      "DECK": "/skateshop/skateboard/decks/",
+      "TRUCKS": "/skateshop/skateboard/trucks/",
+      "WHEELS": "/skateshop/skateboard/roues/",
+      "BEARINGS": "/skateshop/skateboard/roulements/"
+    }
+  },
+  {
+    "id": "lechoppe",
+    "shop": "L'Échoppe Skateshop",
+    "kind": "html",
+    "baseUrl": "https://lechoppe-skateshop.paris",
+    "maxPages": 5,
+    "categories": {
+      "DECK": "/fr/36-boards",
+      "TRUCKS": "/fr/37-trucks",
+      "WHEELS": "/fr/38-roues",
+      "BEARINGS": "/fr/39-roulements"
     }
   }
 ]

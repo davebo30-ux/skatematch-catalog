@@ -25,16 +25,51 @@ try {
 }
 
 async function fetchJson(url, attempt = 1, extraHeaders = {}) {
-  const response = await fetch(url, {
-    headers: { ...headers, ...extraHeaders },
-    signal: AbortSignal.timeout(45_000)
-  })
-  if (response.ok) return response.json()
-  if (attempt < 3 && (response.status === 429 || response.status >= 500)) {
-    await new Promise(resolveDelay => setTimeout(resolveDelay, attempt * 1_500))
-    return fetchJson(url, attempt + 1, extraHeaders)
+  try {
+    const response = await fetch(url, {
+      headers: { ...headers, ...extraHeaders },
+      signal: AbortSignal.timeout(45_000)
+    })
+    if (response.ok) return response.json()
+    if (attempt < 3 && (response.status === 429 || response.status >= 500)) {
+      await new Promise(resolveDelay => setTimeout(resolveDelay, attempt * 1_500))
+      return fetchJson(url, attempt + 1, extraHeaders)
+    }
+    throw new Error(`${response.status} ${response.statusText} · ${url}`)
+  } catch (error) {
+    const retryable = error.name === "AbortError"
+      || error.name === "TimeoutError"
+      || /aborted|fetch failed|network|timeout/i.test(error.message)
+    if (attempt < 3 && retryable) {
+      await new Promise(resolveDelay => setTimeout(resolveDelay, attempt * 1_500))
+      return fetchJson(url, attempt + 1, extraHeaders)
+    }
+    throw error
   }
-  throw new Error(`${response.status} ${response.statusText} · ${url}`)
+}
+
+async function fetchText(url, attempt = 1) {
+  try {
+    const response = await fetch(url, {
+      headers: { ...headers, Accept: "text/html,application/xhtml+xml" },
+      signal: AbortSignal.timeout(45_000)
+    })
+    if (response.ok) return response.text()
+    if (attempt < 3 && (response.status === 429 || response.status >= 500)) {
+      await new Promise(resolveDelay => setTimeout(resolveDelay, attempt * 1_500))
+      return fetchText(url, attempt + 1)
+    }
+    throw new Error(`${response.status} ${response.statusText} · ${url}`)
+  } catch (error) {
+    const retryable = error.name === "AbortError"
+      || error.name === "TimeoutError"
+      || /aborted|fetch failed|network|timeout/i.test(error.message)
+    if (attempt < 3 && retryable) {
+      await new Promise(resolveDelay => setTimeout(resolveDelay, attempt * 1_500))
+      return fetchText(url, attempt + 1)
+    }
+    throw error
+  }
 }
 
 async function importShopify(feed) {
@@ -78,11 +113,12 @@ async function importPrestaShop(feed) {
   let scanned = 0
 
   for (const [componentType, categoryPath] of Object.entries(feed.categories)) {
-    for (let page = 1; page <= 30; page += 1) {
-      const query = new URLSearchParams({ ajax: "1", page: String(page) })
-      if (!feed.omitPageSize) query.set("resultsPerPage", "100")
-      const url = `${feed.baseUrl}${categoryPath}?${query}`
-      const payload = await fetchJson(url, 1, {
+    for (let page = 1; page <= (feed.maxPages || 30); page += 1) {
+      const url = new URL(categoryPath, feed.baseUrl)
+      url.searchParams.set("ajax", "1")
+      url.searchParams.set("page", String(page))
+      if (!feed.omitPageSize) url.searchParams.set("resultsPerPage", String(feed.pageSize || 100))
+      const payload = await fetchJson(url.href, 1, {
         Accept: "application/json",
         "X-Requested-With": "XMLHttpRequest"
       })
@@ -113,25 +149,26 @@ async function importHtmlCatalog(feed) {
   for (const [componentType, categoryPath] of Object.entries(feed.categories)) {
     let nextUrl = new URL(categoryPath, feed.baseUrl).href
     const visited = new Set()
+    const visitedProducts = new Set()
 
     for (let page = 1; nextUrl && page <= (feed.maxPages || 6); page += 1) {
       if (visited.has(nextUrl)) break
       visited.add(nextUrl)
-      const response = await fetch(nextUrl, {
-        headers: {
-          ...headers,
-          Accept: "text/html,application/xhtml+xml"
-        },
-        signal: AbortSignal.timeout(45_000)
+      const result = extractCatalogPage(await fetchText(nextUrl), nextUrl)
+      const newProducts = result.products.filter(product => {
+        if (visitedProducts.has(product.productUrl)) return false
+        visitedProducts.add(product.productUrl)
+        return true
       })
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText} · ${nextUrl}`)
-
-      const result = extractCatalogPage(await response.text(), nextUrl)
-      scanned += result.products.length
-      result.products.forEach(product => normalized.push(...normalizeHtmlProduct(feed, componentType, product)))
+      if (page > 1 && !newProducts.length) break
+      scanned += newProducts.length
+      newProducts.forEach(product => normalized.push(...normalizeHtmlProduct(feed, componentType, product)))
       nextUrl = result.nextUrl
       if (nextUrl && new URL(nextUrl).hostname !== new URL(feed.baseUrl).hostname) nextUrl = null
       if (!result.products.length) break
+      if (nextUrl && feed.requestDelayMs) {
+        await new Promise(resolveDelay => setTimeout(resolveDelay, feed.requestDelayMs))
+      }
     }
   }
 
@@ -152,10 +189,11 @@ async function synchronizeFeed(feed, index) {
     }[feed.kind]
     if (!importer) throw new Error(`Type de flux non reconnu : ${feed.kind}`)
     const result = await importer(feed)
-    if (!result.normalized.length) throw new Error("Aucun produit disponible dans le flux")
-    result.normalized.forEach(product => productsById.set(product.id, product))
-    sourceResults[index] = { id: feed.id, shop: feed.shop, status: "ok", scanned: result.scanned, imported: result.normalized.length }
-    process.stdout.write(`✓ ${feed.shop}: ${result.normalized.length} variantes matériel\n`)
+    const uniqueProducts = [...new Map(result.normalized.map(product => [product.id, product])).values()]
+    if (!uniqueProducts.length) throw new Error("Aucun produit disponible dans le flux")
+    uniqueProducts.forEach(product => productsById.set(product.id, product))
+    sourceResults[index] = { id: feed.id, shop: feed.shop, status: "ok", scanned: result.scanned, imported: uniqueProducts.length }
+    process.stdout.write(`✓ ${feed.shop}: ${uniqueProducts.length} variantes matériel\n`)
   } catch (error) {
     const retainedProducts = (previousCatalog?.products || []).filter(product => product.source === feed.id)
     if (retainedProducts.length) {

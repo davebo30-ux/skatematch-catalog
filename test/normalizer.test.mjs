@@ -190,3 +190,28 @@ test("lit les catégories publiques Magento et PrestaShop sans confondre stock e
   assert.deepEqual(deck.specs, { widthInches: 8.25 })
   assert.deepEqual(normalizeHtmlProduct(feed, "DECK", result.products[1]), [])
 })
+
+test("lit les cartes publiques Fulkit, Skate.fr et Snowbeach", () => {
+  const html = `
+    <div class="js-product item-inner">
+      <a href="/deck-fulkit"><img data-src="/fulkit.jpg" alt="Baker Deck 8.25"></a>
+      <div class="product_name"><a href="/deck-fulkit">Baker Deck 8.25</a></div>
+      <span class="price">79,95 €</span><button>Ajouter au panier</button>
+    </div>
+    <li class="product type-product post-42 instock">
+      <a href="/deck-skate"><img data-lazy-src="/skate.jpg" alt="Real Deck 8.5"></a>
+      <a class="product-loop-title" href="/deck-skate"><h3 class="woocommerce-loop-product__title">Real Deck 8.5</h3></a>
+      <span class="price">90 €</span><a data-product_id="42">Ajouter au panier</a>
+    </li>
+    <div class="l_product_item">
+      <a class="product-image" data-gtm-click-id="137308" href="/deck-snow" title="Zero Deck 8.0"><img src="/snow.jpg"></a>
+      <h4>Zero Deck 8.0</h4><span class="price">62 €</span><button>Ajouter au panier</button>
+    </div>
+  `
+
+  const result = extractCatalogPage(html, "https://example.com/catalogue")
+  assert.equal(result.products.length, 3)
+  assert.equal(result.products[0].imageUrl, "https://example.com/fulkit.jpg")
+  assert.equal(result.products[1].id, "42")
+  assert.equal(result.products[2].id, "137308")
+})

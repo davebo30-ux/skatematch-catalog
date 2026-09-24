@@ -8,6 +8,7 @@ const NAMED_ENTITIES = {
   gt: ">",
   lt: "<",
   nbsp: " ",
+  prime: "″",
   quot: '"'
 }
 
@@ -129,11 +130,23 @@ function findRegularPrice(card, currentPrice) {
 }
 
 function productLink(card) {
-  const named = first(card, node => node.tag === "a" && hasClass(node, "product-item-link", "product-name"))
+  const named = first(card, node => node.tag === "a" && hasClass(
+    node,
+    "product-item-link",
+    "product-name",
+    "product-loop-title"
+  ))
   if (named) return named
 
-  const title = first(card, node => ["h2", "h3", "h4", "strong"].includes(node.tag)
-    && (hasClass(node, "product-name", "product-item-name", "product-title") || node.attrs.itemprop === "name"))
+  const title = first(card, node => ["div", "h2", "h3", "h4", "strong"].includes(node.tag)
+    && (hasClass(
+      node,
+      "product-name",
+      "product_name",
+      "product-item-name",
+      "product-title",
+      "woocommerce-loop-product__title"
+    ) || node.attrs.itemprop === "name"))
   const nested = title && first(title, node => node.tag === "a")
   if (nested) return nested
 
@@ -145,12 +158,24 @@ function extractProduct(card, baseUrl) {
   const image = first(card, node => node.tag === "img")
   if (!link || !image) return null
 
-  const titleNode = first(card, node => ["h2", "h3", "h4", "strong"].includes(node.tag)
-    && (hasClass(node, "product-name", "product-item-name", "product-title") || node.attrs.itemprop === "name"))
+  const titleNode = first(card, node => ["div", "h2", "h3", "h4", "strong"].includes(node.tag)
+    && (hasClass(
+      node,
+      "product-name",
+      "product_name",
+      "product-item-name",
+      "product-title",
+      "woocommerce-loop-product__title"
+    ) || node.attrs.itemprop === "name"))
   const name = nodeText(link) || nodeText(titleNode) || link.attrs.title || image.attrs.alt || ""
   const productUrl = absoluteUrl(link.attrs.href, baseUrl)
   const imageUrl = absoluteUrl(
-    image.attrs["data-src"] || image.attrs["data-original"] || image.attrs["data-lazy"] || image.attrs.src || image.attrs.srcset,
+    image.attrs["data-src"]
+      || image.attrs["data-lazy-src"]
+      || image.attrs["data-original"]
+      || image.attrs["data-lazy"]
+      || image.attrs.src
+      || image.attrs.srcset,
     baseUrl
   )
   const price = findPrice(card)
@@ -159,11 +184,14 @@ function extractProduct(card, baseUrl) {
 
   const details = nodeText(card)
   const soldOut = /(?:[ée]puis[ée]|rupture de stock|out of stock|sold out|indisponible)/i.test(details)
+    || hasClass(card, "outofstock", "sold-out")
   const addToCart = /\b(?:ajouter au panier|add to cart|ajout(?:er)? au panier)\b/i.test(details)
   const brandNode = first(card, node => hasClass(node, "product-brand", "brand", "manufacturer", "product-vendor"))
   const identifierNode = first(card, node => node.attrs["data-product-id"] || node.attrs["data-id-product"])
   const identifier = identifierNode?.attrs["data-product-id"]
     || identifierNode?.attrs["data-id-product"]
+    || first(card, node => node.attrs["data-product_id"])?.attrs["data-product_id"]
+    || first(card, node => node.attrs["data-gtm-click-id"])?.attrs["data-gtm-click-id"]
     || createHash("sha1").update(productUrl).digest("hex").slice(0, 16)
 
   return {
@@ -203,13 +231,19 @@ function nextPage(root, baseUrl) {
 
 export function extractCatalogPage(html, baseUrl) {
   const root = parseDocument(html)
-  let cards = visit(root, node => node.tag === "li"
-    && (hasClass(node, "product-item", "ajax_block_product", "item") || node.attrs.itemtype?.includes("schema.org/Product")))
-
-  if (!cards.length) {
-    cards = visit(root, node => node.tag === "div"
-      && (hasClass(node, "product-item-info", "product-container") || node.attrs.itemtype?.includes("schema.org/Product")))
-  }
+  const cards = visit(root, node => (
+    node.tag === "li"
+      && (hasClass(node, "product-item", "ajax_block_product", "item", "product") || node.attrs.itemtype?.includes("schema.org/Product"))
+  ) || (
+    node.tag === "div"
+      && (hasClass(
+        node,
+        "product-item-info",
+        "product-container",
+        "js-product",
+        "l_product_item"
+      ) || node.attrs.itemtype?.includes("schema.org/Product"))
+  ))
 
   const products = [...new Map(cards.map(card => extractProduct(card, baseUrl))
     .filter(Boolean)
