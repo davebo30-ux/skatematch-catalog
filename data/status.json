@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-24T20:19:02.906Z",
-  "totalOffers": 10388,
+  "generatedAt": "2026-09-25T04:50:27.746Z",
+  "totalOffers": 10391,
   "counts": {
     "DECK": 5274,
     "TRUCKS": 1608,
-    "WHEELS": 3009,
-    "BEARINGS": 497
+    "WHEELS": 3011,
+    "BEARINGS": 498
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 717,
-      "imported": 706
+      "scanned": 720,
+      "imported": 709
     },
     {
       "id": "wallstreet",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-24T19:31:22.181Z",
+      "retainedFrom": "2026-09-24T20:19:02.906Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +98,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 243,
-      "retainedFrom": "2026-09-24T19:31:22.181Z",
+      "retainedFrom": "2026-09-24T20:19:02.906Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-24T19:31:22.181Z",
+      "retainedFrom": "2026-09-24T20:19:02.906Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-24T19:31:22.181Z",
+      "retainedFrom": "2026-09-24T20:19:02.906Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-24T19:31:22.181Z",
+      "retainedFrom": "2026-09-24T20:19:02.906Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -286,12 +286,6 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "403 Forbidden · https://www.snowbeach.com/snowbeach/skateboards/planches.html"
-    },
-    {
-      "id": "skatefr",
-      "shop": "Skate.fr",
-      "status": "error",
-      "message": "403 Forbidden · https://skate.fr/skateshop/skateboard/decks/"
     }
   ]
 }
