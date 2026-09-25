@@ -388,19 +388,6 @@
     }
   },
   {
-    "id": "skatefr",
-    "shop": "Skate.fr",
-    "kind": "html",
-    "baseUrl": "https://skate.fr",
-    "maxPages": 1,
-    "categories": {
-      "DECK": "/skateshop/skateboard/decks/",
-      "TRUCKS": "/skateshop/skateboard/trucks/",
-      "WHEELS": "/skateshop/skateboard/roues/",
-      "BEARINGS": "/skateshop/skateboard/roulements/"
-    }
-  },
-  {
     "id": "lechoppe",
     "shop": "L'Échoppe Skateshop",
     "kind": "html",
