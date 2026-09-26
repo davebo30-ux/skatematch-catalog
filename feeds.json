@@ -399,5 +399,16 @@
       "WHEELS": "/fr/38-roues",
       "BEARINGS": "/fr/39-roulements"
     }
+  },
+  {
+    "id": "hawaiisurf",
+    "shop": "HawaiiSurf",
+    "kind": "shopify",
+    "baseUrl": "https://www.hawaiisurf.com",
+    "collections": {
+      "DECK": "plateaux-skate",
+      "WHEELS": "roues-skateboard",
+      "BEARINGS": "roulements-skate"
+    }
   }
 ]
