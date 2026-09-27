@@ -410,5 +410,15 @@
       "WHEELS": "roues-skateboard",
       "BEARINGS": "roulements-skate"
     }
+  },
+  {
+    "id": "golden-coast",
+    "shop": "Golden Coast",
+    "kind": "woocommerce",
+    "baseUrl": "https://golden-coast.fr",
+    "categories": {
+      "DECK": 686,
+      "TRUCKS": 704
+    }
   }
 ]
