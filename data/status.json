@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-27T10:23:53.718Z",
-  "totalOffers": 10414,
+  "generatedAt": "2026-09-27T12:06:46.783Z",
+  "totalOffers": 10442,
   "counts": {
-    "DECK": 5279,
-    "TRUCKS": 1610,
+    "DECK": 5300,
+    "TRUCKS": 1617,
     "WHEELS": 3027,
     "BEARINGS": 498
   },
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 709,
-      "imported": 699
+      "scanned": 707,
+      "imported": 697
     },
     {
       "id": "wallstreet",
@@ -25,23 +25,26 @@
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
-      "status": "ok",
-      "scanned": 2583,
-      "imported": 584
+      "status": "stale",
+      "imported": 584,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://buzzzskateshop.com/products.json?limit=250&page=1"
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
-      "status": "ok",
-      "scanned": 575,
-      "imported": 22
+      "status": "stale",
+      "imported": 22,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://circleshop.fr/products.json?limit=250&page=2"
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
-      "status": "ok",
-      "scanned": 529,
-      "imported": 98
+      "status": "stale",
+      "imported": 98,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://www.olliedayskateshop.com/products.json?limit=250&page=1"
     },
     {
       "id": "central",
@@ -60,9 +63,10 @@
     {
       "id": "freedom",
       "shop": "Freedom Skateshop",
-      "status": "ok",
-      "scanned": 424,
-      "imported": 421
+      "status": "stale",
+      "imported": 421,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://freedomskateshop.fr/collections/skateboard-decks/products.json?limit=250&page=1"
     },
     {
       "id": "bass",
@@ -81,81 +85,89 @@
     {
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
-      "status": "ok",
-      "scanned": 3566,
-      "imported": 3448
+      "status": "stale",
+      "imported": 3448,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://numero4skateshop.com/collections/trucks-skateboard/products.json?limit=250&page=1"
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-26T19:34:24.812Z",
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "ok",
-      "scanned": 268,
-      "imported": 250
+      "status": "stale",
+      "imported": 250,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
       "id": "official",
       "shop": "Official Skateshop",
-      "status": "ok",
-      "scanned": 87,
-      "imported": 65
+      "status": "stale",
+      "imported": 65,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://officialskateshop.com/products.json?limit=250&page=1"
     },
     {
       "id": "jacknroll",
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-26T19:34:24.812Z",
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
       "id": "balargue",
       "shop": "Balargue Skateshop",
-      "status": "ok",
-      "scanned": 25,
-      "imported": 3
+      "status": "stale",
+      "imported": 3,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://balargueskateshop.com/products.json?limit=250&page=1"
     },
     {
       "id": "bird",
       "shop": "Bird Skateshop",
-      "status": "ok",
-      "scanned": 212,
-      "imported": 107
+      "status": "stale",
+      "imported": 107,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://bird-skateshop.com/products.json?limit=250&page=1"
     },
     {
       "id": "born2ride",
       "shop": "Born2ride",
-      "status": "ok",
-      "scanned": 118,
-      "imported": 115
+      "status": "stale",
+      "imported": 115,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://born2ride.fr/collections/trucks/products.json?limit=250&page=1"
     },
     {
       "id": "pereskateur",
       "shop": "Le Père Skateur",
-      "status": "ok",
-      "scanned": 122,
-      "imported": 11
+      "status": "stale",
+      "imported": 11,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://www.lepereskateur.com/products.json?limit=250&page=1"
     },
     {
       "id": "woodstock",
       "shop": "Woodstock Shop",
-      "status": "ok",
-      "scanned": 124,
-      "imported": 94
+      "status": "stale",
+      "imported": 94,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://www.woodstockshop.com/collections/plateaux-skateboard/products.json?limit=250&page=1"
     },
     {
       "id": "shifty",
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-26T19:34:24.812Z",
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -182,37 +194,42 @@
     {
       "id": "banks",
       "shop": "Bank's Skateshop",
-      "status": "ok",
-      "scanned": 123,
-      "imported": 125
+      "status": "stale",
+      "imported": 125,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://banks-skateshop.com/collections/roues/products.json?limit=250&page=1"
     },
     {
       "id": "zeropolis",
       "shop": "Zeropolis Skateshop",
-      "status": "ok",
-      "scanned": 347,
-      "imported": 310
+      "status": "stale",
+      "imported": 310,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://www.zeropolis-skateshop.com/collections/planches/products.json?limit=250&page=1"
     },
     {
       "id": "streetart",
       "shop": "Streetart Skateshop",
-      "status": "ok",
-      "scanned": 40,
-      "imported": 40
+      "status": "stale",
+      "imported": 40,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://www.streetart.fr/collections/roues-skate/products.json?limit=250&page=1"
     },
     {
       "id": "brothercrew",
       "shop": "Brother Crew Skateshop",
-      "status": "ok",
-      "scanned": 55,
-      "imported": 62
+      "status": "stale",
+      "imported": 62,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://brothercrew.fr/collections/roulements/products.json?limit=250&page=1"
     },
     {
       "id": "slide",
       "shop": "Slide Skateshop",
-      "status": "ok",
-      "scanned": 102,
-      "imported": 33
+      "status": "stale",
+      "imported": 33,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://slideskateshop.fr/collections/roues-de-skate/products.json?limit=250&page=1"
     },
     {
       "id": "freerideattitude",
@@ -238,9 +255,10 @@
     {
       "id": "drdeck",
       "shop": "Dr. Deck Skateshop",
-      "status": "ok",
-      "scanned": 22,
-      "imported": 20
+      "status": "stale",
+      "imported": 20,
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
+      "message": "500 Internal Server Error · https://drdeck.fr/collections/roulements-skate/products.json?limit=250&page=1"
     },
     {
       "id": "vega",
@@ -261,7 +279,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-26T19:34:24.812Z",
+      "retainedFrom": "2026-09-27T10:23:53.718Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -284,6 +302,13 @@
       "status": "ok",
       "scanned": 204,
       "imported": 27
+    },
+    {
+      "id": "golden-coast",
+      "shop": "Golden Coast",
+      "status": "ok",
+      "scanned": 60,
+      "imported": 30
     }
   ],
   "unavailableSources": [
