@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-26T19:34:24.812Z",
+  "generatedAt": "2026-09-27T10:23:53.718Z",
   "totalOffers": 10414,
   "counts": {
     "DECK": 5279,
     "TRUCKS": 1610,
-    "WHEELS": 3025,
-    "BEARINGS": 500
+    "WHEELS": 3027,
+    "BEARINGS": 498
   },
   "sources": [
     {
@@ -20,7 +20,7 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 239,
-      "imported": 102
+      "imported": 101
     },
     {
       "id": "buzzz",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-26T11:44:17.385Z",
+      "retainedFrom": "2026-09-26T19:34:24.812Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-26T11:44:17.385Z",
+      "retainedFrom": "2026-09-26T19:34:24.812Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-26T11:44:17.385Z",
+      "retainedFrom": "2026-09-26T19:34:24.812Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -261,15 +261,15 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-26T11:44:17.385Z",
+      "retainedFrom": "2026-09-26T19:34:24.812Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
       "id": "fulkit",
       "shop": "Fulkit Skateshop",
       "status": "ok",
-      "scanned": 116,
-      "imported": 90
+      "scanned": 119,
+      "imported": 91
     },
     {
       "id": "lechoppe",
