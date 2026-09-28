@@ -420,5 +420,15 @@
       "DECK": 686,
       "TRUCKS": 704
     }
+  },
+  {
+    "id": "hutchis",
+    "shop": "Hutchi’s Skate Shop",
+    "kind": "woocommerce",
+    "baseUrl": "https://skate-shop-vichy.fr",
+    "categories": {
+      "DECK": 164,
+      "TRUCKS": 165
+    }
   }
 ]
