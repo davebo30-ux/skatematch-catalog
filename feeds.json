@@ -440,14 +440,5 @@
     "categories": {
       "WHEELS": "/fr/70-roues-de-skate"
     }
-  },
-  {
-    "id": "evasion",
-    "shop": "Évasion Skateshop",
-    "kind": "prestashop",
-    "baseUrl": "https://evasion-eshop.com",
-    "categories": {
-      "DECK": "/1000425-plateau-skate"
-    }
   }
 ]
