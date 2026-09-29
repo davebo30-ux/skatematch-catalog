@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:39:38.781Z",
+  "generatedAt": "2026-09-29T11:43:42.701Z",
   "totalOffers": 10488,
   "counts": {
     "DECK": 5316,
@@ -67,9 +67,10 @@
     {
       "id": "bass",
       "shop": "Bass Skateshop",
-      "status": "ok",
-      "scanned": 207,
-      "imported": 188
+      "status": "stale",
+      "imported": 188,
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
+      "message": "503 Service Temporarily Unavailable · https://bass-skateshop.com/10000007-plateaux?ajax=1&page=1&resultsPerPage=100"
     },
     {
       "id": "bamboo",
@@ -90,7 +91,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-29T11:07:51.019Z",
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -98,7 +99,7 @@
       "shop": "OKLA Shop",
       "status": "stale",
       "imported": 250,
-      "retainedFrom": "2026-09-29T11:07:51.019Z",
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
       "message": "403 Forbidden · https://okla-shop.com/wp-json/wc/store/v1/products?category=4155&per_page=100&page=1"
     },
     {
@@ -113,7 +114,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-29T11:07:51.019Z",
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +157,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-29T11:07:51.019Z",
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -253,16 +254,17 @@
     {
       "id": "albp",
       "shop": "A La Bonne Planchette",
-      "status": "ok",
-      "scanned": 72,
-      "imported": 71
+      "status": "stale",
+      "imported": 71,
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
+      "message": "503 Service Temporarily Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
       "id": "independentskateshop",
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-29T11:07:51.019Z",
+      "retainedFrom": "2026-09-29T11:39:38.781Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -314,12 +316,6 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "403 Forbidden · https://www.snowbeach.com/snowbeach/skateboards/planches.html"
-    },
-    {
-      "id": "evasion",
-      "shop": "Évasion Skateshop",
-      "status": "error",
-      "message": "503 Service Temporarily Unavailable · https://evasion-eshop.com/1000425-plateau-skate?ajax=1&page=1&resultsPerPage=100"
     }
   ]
 }
