@@ -430,5 +430,24 @@
       "DECK": 164,
       "TRUCKS": 165
     }
+  },
+  {
+    "id": "breizhrider",
+    "shop": "Breizh Rider",
+    "kind": "html",
+    "baseUrl": "https://www.breizh-rider.fr",
+    "maxPages": 5,
+    "categories": {
+      "WHEELS": "/fr/70-roues-de-skate"
+    }
+  },
+  {
+    "id": "evasion",
+    "shop": "Évasion Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://evasion-eshop.com",
+    "categories": {
+      "DECK": "/1000425-plateau-skate"
+    }
   }
 ]
