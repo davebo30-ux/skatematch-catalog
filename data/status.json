@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-30T10:58:25.467Z",
-  "totalOffers": 10520,
+  "generatedAt": "2026-09-30T11:51:48.194Z",
+  "totalOffers": 10671,
   "counts": {
-    "DECK": 5357,
-    "TRUCKS": 1620,
-    "WHEELS": 3047,
+    "DECK": 5354,
+    "TRUCKS": 1775,
+    "WHEELS": 3046,
     "BEARINGS": 496
   },
   "sources": [
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
+      "retainedFrom": "2026-09-30T10:58:25.467Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,14 +27,14 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2606,
+      "scanned": 2607,
       "imported": 611
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 598,
+      "scanned": 603,
       "imported": 23
     },
     {
@@ -62,16 +62,15 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 415,
-      "imported": 412
+      "scanned": 410,
+      "imported": 407
     },
     {
       "id": "bass",
       "shop": "Bass Skateshop",
-      "status": "stale",
-      "imported": 188,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
-      "message": "503 Service Temporarily Unavailable · https://bass-skateshop.com/10000007-plateaux?ajax=1&page=1&resultsPerPage=100"
+      "status": "ok",
+      "scanned": 207,
+      "imported": 188
     },
     {
       "id": "bamboo",
@@ -92,16 +91,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
+      "retainedFrom": "2026-09-30T10:58:25.467Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
-      "status": "stale",
-      "imported": 250,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
-      "message": "fetch failed"
+      "status": "ok",
+      "scanned": 268,
+      "imported": 250
     },
     {
       "id": "official",
@@ -115,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
+      "retainedFrom": "2026-09-30T10:58:25.467Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -158,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
+      "retainedFrom": "2026-09-30T10:58:25.467Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -166,7 +164,7 @@
       "shop": "Nozbone Skateshop",
       "status": "stale",
       "imported": 206,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
+      "retainedFrom": "2026-09-30T10:58:25.467Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -256,17 +254,16 @@
     {
       "id": "albp",
       "shop": "A La Bonne Planchette",
-      "status": "stale",
-      "imported": 71,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
-      "message": "503 Service Temporarily Unavailable · https://alabonneplanchette.fr/10000028-planches"
+      "status": "ok",
+      "scanned": 72,
+      "imported": 71
     },
     {
       "id": "independentskateshop",
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-29T21:18:20.172Z",
+      "retainedFrom": "2026-09-30T10:58:25.467Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -310,6 +307,13 @@
       "status": "ok",
       "scanned": 33,
       "imported": 32
+    },
+    {
+      "id": "empr",
+      "shop": "EMPR",
+      "status": "ok",
+      "scanned": 52,
+      "imported": 156
     }
   ],
   "unavailableSources": [
