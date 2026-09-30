@@ -440,5 +440,14 @@
     "categories": {
       "WHEELS": "/fr/70-roues-de-skate"
     }
+  },
+  {
+    "id": "empr",
+    "shop": "EMPR",
+    "kind": "shopify",
+    "baseUrl": "https://empr.store",
+    "collections": {
+      "TRUCKS": "trucks"
+    }
   }
 ]
