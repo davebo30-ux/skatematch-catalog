@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T11:25:53.190Z",
-  "totalOffers": 10655,
+  "generatedAt": "2026-10-01T11:42:54.560Z",
+  "totalOffers": 10685,
   "counts": {
-    "DECK": 5335,
+    "DECK": 5367,
     "TRUCKS": 1779,
-    "WHEELS": 3045,
+    "WHEELS": 3043,
     "BEARINGS": 496
   },
   "sources": [
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-09-30T21:14:53.070Z",
+      "retainedFrom": "2026-10-01T11:25:53.190Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,7 +27,7 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2616,
+      "scanned": 2617,
       "imported": 614
     },
     {
@@ -91,15 +91,15 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-30T21:14:53.070Z",
+      "retainedFrom": "2026-10-01T11:25:53.190Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
       "status": "ok",
-      "scanned": 268,
-      "imported": 250
+      "scanned": 259,
+      "imported": 241
     },
     {
       "id": "official",
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-30T21:14:53.070Z",
+      "retainedFrom": "2026-10-01T11:25:53.190Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-30T21:14:53.070Z",
+      "retainedFrom": "2026-10-01T11:25:53.190Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-30T21:14:53.070Z",
+      "retainedFrom": "2026-10-01T11:25:53.190Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -313,6 +313,13 @@
       "status": "ok",
       "scanned": 52,
       "imported": 156
+    },
+    {
+      "id": "clicnroll",
+      "shop": "Clic-n-Roll",
+      "status": "ok",
+      "scanned": 39,
+      "imported": 39
     }
   ],
   "unavailableSources": [
