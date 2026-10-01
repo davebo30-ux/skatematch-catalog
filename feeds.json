@@ -449,5 +449,14 @@
     "collections": {
       "TRUCKS": "trucks"
     }
+  },
+  {
+    "id": "clicnroll",
+    "shop": "Clic-n-Roll",
+    "kind": "prestashop",
+    "baseUrl": "https://clic-n-roll.com",
+    "categories": {
+      "DECK": "/fr/86-planche-skate"
+    }
   }
 ]
