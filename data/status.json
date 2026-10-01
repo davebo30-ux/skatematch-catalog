@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T21:14:53.070Z",
-  "totalOffers": 10672,
+  "generatedAt": "2026-10-01T11:25:53.190Z",
+  "totalOffers": 10655,
   "counts": {
-    "DECK": 5352,
+    "DECK": 5335,
     "TRUCKS": 1779,
     "WHEELS": 3045,
     "BEARINGS": 496
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-09-30T11:51:48.194Z",
+      "retainedFrom": "2026-09-30T21:14:53.070Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -21,14 +21,14 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 246,
-      "imported": 102
+      "imported": 86
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2611,
-      "imported": 615
+      "scanned": 2616,
+      "imported": 614
     },
     {
       "id": "circle",
@@ -83,7 +83,7 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3566,
+      "scanned": 3504,
       "imported": 3448
     },
     {
@@ -91,7 +91,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2308,
-      "retainedFrom": "2026-09-30T11:51:48.194Z",
+      "retainedFrom": "2026-09-30T21:14:53.070Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-09-30T11:51:48.194Z",
+      "retainedFrom": "2026-09-30T21:14:53.070Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-09-30T11:51:48.194Z",
+      "retainedFrom": "2026-09-30T21:14:53.070Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-09-30T11:51:48.194Z",
+      "retainedFrom": "2026-09-30T21:14:53.070Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
