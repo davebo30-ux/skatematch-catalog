@@ -458,5 +458,15 @@
     "categories": {
       "DECK": "/fr/86-planche-skate"
     }
+  },
+  {
+    "id": "movement",
+    "shop": "Movement Shop",
+    "kind": "shopify",
+    "baseUrl": "https://movement-shop.fr",
+    "collections": {
+      "DECK": "boards-skateboard",
+      "TRUCKS": "trucks-skateboard"
+    }
   }
 ]
