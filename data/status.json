@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-03T11:54:14.217Z",
-  "totalOffers": 10727,
+  "generatedAt": "2026-10-03T19:41:50.877Z",
+  "totalOffers": 10646,
   "counts": {
-    "DECK": 5423,
-    "TRUCKS": 1785,
-    "WHEELS": 3028,
-    "BEARINGS": 491
+    "DECK": 5372,
+    "TRUCKS": 1786,
+    "WHEELS": 3000,
+    "BEARINGS": 488
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-10-03T10:16:58.003Z",
+      "retainedFrom": "2026-10-03T11:54:14.217Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -21,14 +21,14 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 239,
-      "imported": 79
+      "imported": 77
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 2635,
-      "imported": 618
+      "imported": 617
     },
     {
       "id": "circle",
@@ -49,7 +49,7 @@
       "shop": "Central Sk8 Shop",
       "status": "ok",
       "scanned": 47,
-      "imported": 17
+      "imported": 16
     },
     {
       "id": "lockwood",
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 397,
-      "imported": 394
+      "scanned": 392,
+      "imported": 389
     },
     {
       "id": "bass",
@@ -76,30 +76,29 @@
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 142,
+      "scanned": 141,
       "imported": 136
     },
     {
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3503,
+      "scanned": 3501,
       "imported": 3448
     },
     {
       "id": "city",
       "shop": "City Skateshop",
-      "status": "stale",
-      "imported": 2308,
-      "retainedFrom": "2026-10-03T10:16:58.003Z",
-      "message": "The operation was aborted due to timeout"
+      "status": "ok",
+      "scanned": 2263,
+      "imported": 2245
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
       "status": "ok",
-      "scanned": 273,
-      "imported": 233
+      "scanned": 271,
+      "imported": 232
     },
     {
       "id": "official",
@@ -113,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-10-03T10:16:58.003Z",
+      "retainedFrom": "2026-10-03T11:54:14.217Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-10-03T10:16:58.003Z",
+      "retainedFrom": "2026-10-03T11:54:14.217Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -184,8 +183,8 @@
       "id": "banks",
       "shop": "Bank's Skateshop",
       "status": "ok",
-      "scanned": 123,
-      "imported": 124
+      "scanned": 122,
+      "imported": 123
     },
     {
       "id": "zeropolis",
@@ -198,8 +197,8 @@
       "id": "streetart",
       "shop": "Streetart Skateshop",
       "status": "ok",
-      "scanned": 61,
-      "imported": 58
+      "scanned": 60,
+      "imported": 57
     },
     {
       "id": "brothercrew",
@@ -213,7 +212,7 @@
       "shop": "Slide Skateshop",
       "status": "ok",
       "scanned": 101,
-      "imported": 31
+      "imported": 30
     },
     {
       "id": "freerideattitude",
@@ -262,7 +261,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-10-03T10:16:58.003Z",
+      "retainedFrom": "2026-10-03T11:54:14.217Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -270,14 +269,14 @@
       "shop": "Fulkit Skateshop",
       "status": "ok",
       "scanned": 119,
-      "imported": 90
+      "imported": 89
     },
     {
       "id": "lechoppe",
       "shop": "L'Échoppe Skateshop",
       "status": "ok",
-      "scanned": 160,
-      "imported": 159
+      "scanned": 156,
+      "imported": 155
     },
     {
       "id": "hawaiisurf",
