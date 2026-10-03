@@ -468,5 +468,18 @@
       "DECK": "boards-skateboard",
       "TRUCKS": "trucks-skateboard"
     }
+  },
+  {
+    "id": "relaxskate",
+    "shop": "Relax Skate",
+    "kind": "html",
+    "baseUrl": "https://www.relaxskate.com",
+    "maxPages": 6,
+    "requestDelayMs": 750,
+    "categories": {
+      "DECK": "/fr/76-plateaux",
+      "TRUCKS": "/fr/77-trucks",
+      "WHEELS": "/fr/78-roues"
+    }
   }
 ]
