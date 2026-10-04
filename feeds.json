@@ -481,5 +481,14 @@
       "TRUCKS": "/fr/77-trucks",
       "WHEELS": "/fr/78-roues"
     }
+  },
+  {
+    "id": "slidercorner",
+    "shop": "Slider Corner",
+    "kind": "prestashop",
+    "baseUrl": "https://slidercorner.com",
+    "categories": {
+      "BEARINGS": "/73-roulements"
+    }
   }
 ]
