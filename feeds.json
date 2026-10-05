@@ -490,5 +490,14 @@
     "categories": {
       "BEARINGS": "/73-roulements"
     }
+  },
+  {
+    "id": "massilia",
+    "shop": "Massilia Surf Shop",
+    "kind": "shopify",
+    "baseUrl": "https://massiliasurfshop.fr",
+    "collections": {
+      "BEARINGS": "skate-roulements"
+    }
   }
 ]
