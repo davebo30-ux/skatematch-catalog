@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T19:56:32.035Z",
-  "totalOffers": 10636,
+  "generatedAt": "2026-10-05T11:20:56.065Z",
+  "totalOffers": 10641,
   "counts": {
-    "DECK": 5366,
-    "TRUCKS": 1786,
-    "WHEELS": 2998,
-    "BEARINGS": 486
+    "DECK": 5371,
+    "TRUCKS": 1785,
+    "WHEELS": 2996,
+    "BEARINGS": 489
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-10-04T11:52:32.486Z",
+      "retainedFrom": "2026-10-04T19:56:32.035Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,8 +27,8 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2635,
-      "imported": 616
+      "scanned": 2649,
+      "imported": 614
     },
     {
       "id": "circle",
@@ -62,8 +62,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 390,
-      "imported": 387
+      "scanned": 396,
+      "imported": 393
     },
     {
       "id": "bass",
@@ -83,15 +83,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3501,
-      "imported": 3448
+      "scanned": 3500,
+      "imported": 3447
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-10-04T11:52:32.486Z",
+      "retainedFrom": "2026-10-04T19:56:32.035Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-10-04T11:52:32.486Z",
+      "retainedFrom": "2026-10-04T19:56:32.035Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-10-04T11:52:32.486Z",
+      "retainedFrom": "2026-10-04T19:56:32.035Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-10-04T11:52:32.486Z",
+      "retainedFrom": "2026-10-04T19:56:32.035Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -270,7 +270,7 @@
       "shop": "Fulkit Skateshop",
       "status": "ok",
       "scanned": 119,
-      "imported": 89
+      "imported": 87
     },
     {
       "id": "lechoppe",
@@ -341,6 +341,13 @@
       "status": "ok",
       "scanned": 1,
       "imported": 1
+    },
+    {
+      "id": "massilia",
+      "shop": "Massilia Surf Shop",
+      "status": "ok",
+      "scanned": 7,
+      "imported": 4
     }
   ],
   "unavailableSources": [
