@@ -499,5 +499,16 @@
     "collections": {
       "BEARINGS": "skate-roulements"
     }
+  },
+  {
+    "id": "neway",
+    "shop": "Neway Nantes",
+    "kind": "prestashop",
+    "baseUrl": "https://www.neway-nantes.fr",
+    "categories": {
+      "DECK": "/plateaux-81",
+      "WHEELS": "/roues-83",
+      "BEARINGS": "/roulements-84"
+    }
   }
 ]
