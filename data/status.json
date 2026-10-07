@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T11:33:21.322Z",
-  "totalOffers": 10731,
+  "generatedAt": "2026-10-07T21:48:13.553Z",
+  "totalOffers": 10536,
   "counts": {
-    "DECK": 5401,
-    "TRUCKS": 1785,
-    "WHEELS": 3047,
-    "BEARINGS": 498
+    "DECK": 5404,
+    "TRUCKS": 1663,
+    "WHEELS": 2970,
+    "BEARINGS": 499
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-10-06T21:28:46.135Z",
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -27,8 +27,8 @@
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2651,
-      "imported": 628
+      "scanned": 2649,
+      "imported": 622
     },
     {
       "id": "circle",
@@ -62,36 +62,36 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 434,
-      "imported": 429
+      "scanned": 447,
+      "imported": 442
     },
     {
       "id": "bass",
       "shop": "Bass Skateshop",
       "status": "ok",
-      "scanned": 207,
+      "scanned": 206,
       "imported": 188
     },
     {
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 137,
-      "imported": 132
+      "scanned": 133,
+      "imported": 128
     },
     {
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3498,
-      "imported": 3445
+      "scanned": 3297,
+      "imported": 3240
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-10-06T21:28:46.135Z",
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-10-06T21:28:46.135Z",
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -156,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-10-06T21:28:46.135Z",
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -178,7 +178,7 @@
       "shop": "Roller'n Co",
       "status": "ok",
       "scanned": 240,
-      "imported": 106
+      "imported": 105
     },
     {
       "id": "banks",
@@ -198,8 +198,8 @@
       "id": "streetart",
       "shop": "Streetart Skateshop",
       "status": "ok",
-      "scanned": 58,
-      "imported": 55
+      "scanned": 57,
+      "imported": 54
     },
     {
       "id": "brothercrew",
@@ -219,8 +219,8 @@
       "id": "freerideattitude",
       "shop": "Freeride Attitude",
       "status": "ok",
-      "scanned": 122,
-      "imported": 115
+      "scanned": 129,
+      "imported": 122
     },
     {
       "id": "outside",
@@ -232,9 +232,10 @@
     {
       "id": "kids",
       "shop": "Kid's Skateshop",
-      "status": "ok",
-      "scanned": 97,
-      "imported": 94
+      "status": "stale",
+      "imported": 94,
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
+      "message": "fetch failed"
     },
     {
       "id": "drdeck",
@@ -262,7 +263,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-10-06T21:28:46.135Z",
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -291,7 +292,7 @@
       "shop": "Golden Coast",
       "status": "ok",
       "scanned": 60,
-      "imported": 35
+      "imported": 36
     },
     {
       "id": "hutchis",
@@ -305,7 +306,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-10-06T21:28:46.135Z",
+      "retainedFrom": "2026-10-07T11:33:21.322Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -348,7 +349,7 @@
       "shop": "Massilia Surf Shop",
       "status": "ok",
       "scanned": 7,
-      "imported": 4
+      "imported": 5
     },
     {
       "id": "neway",
