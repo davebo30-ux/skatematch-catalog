@@ -510,5 +510,14 @@
       "WHEELS": "/roues-83",
       "BEARINGS": "/roulements-84"
     }
+  },
+  {
+    "id": "sb-skateshop",
+    "shop": "SB-skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://sb-skateshop.com",
+    "categories": {
+      "DECK": "/20-plateaux"
+    }
   }
 ]
