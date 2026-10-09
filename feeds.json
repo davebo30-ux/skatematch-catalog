@@ -510,5 +510,16 @@
       "WHEELS": "/roues-83",
       "BEARINGS": "/roulements-84"
     }
+  },
+  {
+    "id": "chattanooga",
+    "shop": "Chattanooga Paris",
+    "kind": "woocommerce",
+    "baseUrl": "https://www.chattanooga.fr",
+    "categories": {
+      "TRUCKS": 54,
+      "WHEELS": 66,
+      "BEARINGS": 60
+    }
   }
 ]
