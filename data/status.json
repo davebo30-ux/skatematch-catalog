@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-10T09:50:21.763Z",
-  "totalOffers": 10326,
+  "generatedAt": "2026-10-10T10:59:08.108Z",
+  "totalOffers": 10028,
   "counts": {
-    "DECK": 5256,
-    "TRUCKS": 1663,
-    "WHEELS": 2935,
-    "BEARINGS": 472
+    "DECK": 5065,
+    "TRUCKS": 1650,
+    "WHEELS": 2843,
+    "BEARINGS": 470
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "shop": "BUD Skateshop",
       "status": "stale",
       "imported": 689,
-      "retainedFrom": "2026-10-09T21:30:33.364Z",
+      "retainedFrom": "2026-10-10T09:50:21.763Z",
       "message": "403 Forbidden · https://www.budskateshop.com/wp-json/wc/store/v1/products?category=1162&per_page=100&page=1"
     },
     {
@@ -83,15 +83,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3047,
-      "imported": 2979
+      "scanned": 2742,
+      "imported": 2681
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-10-09T21:30:33.364Z",
+      "retainedFrom": "2026-10-10T09:50:21.763Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -113,7 +113,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-10-09T21:30:33.364Z",
+      "retainedFrom": "2026-10-10T09:50:21.763Z",
       "message": "503 Service Unavailable · https://jacknroll.fr/125-planches-seules?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -134,7 +134,7 @@
       "id": "born2ride",
       "shop": "Born2ride",
       "status": "ok",
-      "scanned": 113,
+      "scanned": 112,
       "imported": 111
     },
     {
@@ -156,7 +156,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-10-09T21:30:33.364Z",
+      "retainedFrom": "2026-10-10T09:50:21.763Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-10-09T21:30:33.364Z",
+      "retainedFrom": "2026-10-10T09:50:21.763Z",
       "message": "503 Service Temporarily Unavailable · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -276,7 +276,7 @@
       "id": "lechoppe",
       "shop": "L'Échoppe Skateshop",
       "status": "ok",
-      "scanned": 144,
+      "scanned": 143,
       "imported": 143
     },
     {
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-10-09T21:30:33.364Z",
+      "retainedFrom": "2026-10-10T09:50:21.763Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
