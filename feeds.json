@@ -521,5 +521,11 @@
       "WHEELS": 66,
       "BEARINGS": 60
     }
+  },
+  {
+    "id": "ckh",
+    "shop": "CKH Skateboarding",
+    "kind": "shopify",
+    "baseUrl": "https://www.ckh-skateboarding.com"
   }
 ]

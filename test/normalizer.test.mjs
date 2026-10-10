@@ -74,6 +74,26 @@ test("normalise une variante Shopify disponible avec son lien shop", () => {
   assert.equal(products[0].quantityForSetup, 1)
 })
 
+test("n'importe pas une variante de skateboard complet comme un plateau Shopify", () => {
+  const feed = { id: "ckh", shop: "CKH Skateboarding", baseUrl: "https://example.com" }
+  const products = normalizeShopifyProduct(feed, {
+    id: 10,
+    title: "CKH Logo Deck",
+    handle: "ckh-logo-deck",
+    product_type: "Skateboard Deck",
+    vendor: "CKH SKATEBOARDING",
+    tags: ["deck"],
+    images: [{ src: "https://example.com/deck.png" }],
+    variants: [
+      { id: 11, title: "6.75\" / deck only", price: "65.00", available: true },
+      { id: 12, title: "6.75\" / complete", price: "145.00", available: true },
+      { id: 13, title: "6.75\" / deck + grip", price: "70.00", available: true }
+    ]
+  })
+
+  assert.deepEqual(products.map(product => product.id), ["ckh:shopify:11", "ckh:shopify:13"])
+})
+
 test("utilise une collection Shopify ciblée sans importer un longboard ou une trottinette", () => {
   const feed = { id: "shop", shop: "Petit Shop", baseUrl: "https://example.com" }
   const base = {

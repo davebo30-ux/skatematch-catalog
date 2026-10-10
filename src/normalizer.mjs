@@ -178,7 +178,11 @@ export function normalizeShopifyProduct(feed, product, expectedComponentType = n
   if (!componentType || !COMPONENTS.has(componentType)) return []
   if (excludedHardware(product.title, componentType)) return []
 
-  const variants = (product.variants || []).filter(variant => variant.available !== false)
+  const variants = (product.variants || []).filter(variant => {
+    if (variant.available === false) return false
+    const variantLabel = variant.title && variant.title !== "Default Title" ? variant.title : ""
+    return !excludedHardware(`${product.title || ""} ${variantLabel}`, componentType)
+  })
   if (!variants.length) return []
   const imageUrl = product.images?.[0]?.src || product.image?.src || ""
 
