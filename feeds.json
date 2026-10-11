@@ -527,5 +527,14 @@
     "shop": "CKH Skateboarding",
     "kind": "shopify",
     "baseUrl": "https://www.ckh-skateboarding.com"
+  },
+  {
+    "id": "cabane-glisse",
+    "shop": "La Cabane de la Glisse",
+    "kind": "shopify",
+    "baseUrl": "https://www.cabanedelaglisse.fr",
+    "collections": {
+      "DECK": "planches"
+    }
   }
 ]
