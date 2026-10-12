@@ -536,5 +536,16 @@
     "collections": {
       "DECK": "planches"
     }
+  },
+  {
+    "id": "phalanger",
+    "shop": "Phalanger",
+    "kind": "html",
+    "baseUrl": "https://phalanger.com",
+    "maxPages": 6,
+    "requestDelayMs": 750,
+    "categories": {
+      "DECK": "/index.php?id_category=10000041&controller=category"
+    }
   }
 ]
