@@ -547,5 +547,14 @@
     "categories": {
       "DECK": "/index.php?id_category=10000041&controller=category"
     }
+  },
+  {
+    "id": "sbskateshop",
+    "shop": "SB-Skateshop (SlideBox)",
+    "kind": "prestashop",
+    "baseUrl": "https://sb-skateshop.com",
+    "categories": {
+      "DECK": "/20-plateaux"
+    }
   }
 ]
