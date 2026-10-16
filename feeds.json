@@ -547,5 +547,14 @@
     "categories": {
       "DECK": "/index.php?id_category=10000041&controller=category"
     }
+  },
+  {
+    "id": "insidshop",
+    "shop": "INSIDSHOP",
+    "kind": "shopify",
+    "baseUrl": "https://www.insidshop.com",
+    "collections": {
+      "DECK": "deck"
+    }
   }
 ]
