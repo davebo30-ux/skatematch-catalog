@@ -556,5 +556,14 @@
     "collections": {
       "DECK": "deck"
     }
+  },
+  {
+    "id": "woodstreet",
+    "shop": "Wood Street",
+    "kind": "shopify",
+    "baseUrl": "https://woodstreet.fr",
+    "collections": {
+      "BEARINGS": "roulements"
+    }
   }
 ]
