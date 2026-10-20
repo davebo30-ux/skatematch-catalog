@@ -565,5 +565,16 @@
     "collections": {
       "BEARINGS": "roulements"
     }
+  },
+  {
+    "id": "evasion",
+    "shop": "Evasion Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://evasion-eshop.com",
+    "categories": {
+      "DECK": "/1000425-plateau-skate",
+      "TRUCKS": "/1000423-truck",
+      "BEARINGS": "/1000424-roulement"
+    }
   }
 ]
