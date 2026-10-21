@@ -565,5 +565,15 @@
     "collections": {
       "BEARINGS": "roulements"
     }
+  },
+  {
+    "id": "opaleride",
+    "shop": "Opale Ride",
+    "kind": "prestashop",
+    "baseUrl": "https://shop.opaleride.fr",
+    "categories": {
+      "WHEELS": "/186-roues",
+      "BEARINGS": "/185-roulements"
+    }
   }
 ]
