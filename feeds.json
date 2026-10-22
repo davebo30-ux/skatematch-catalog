@@ -575,5 +575,14 @@
       "WHEELS": "/186-roues",
       "BEARINGS": "/185-roulements"
     }
+  },
+  {
+    "id": "krakatoa",
+    "shop": "Krakatoa",
+    "kind": "prestashop",
+    "baseUrl": "https://www.krakatoa.fr",
+    "categories": {
+      "DECK": "/fr/1973-plateaux"
+    }
   }
 ]
