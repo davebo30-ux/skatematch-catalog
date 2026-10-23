@@ -584,5 +584,15 @@
     "categories": {
       "DECK": "/fr/1973-plateaux"
     }
+  },
+  {
+    "id": "ultimate-street",
+    "shop": "Ultimate Street Store",
+    "kind": "shopify",
+    "baseUrl": "https://ultimate-streetstore.fr",
+    "collections": {
+      "DECK": "planche-skate",
+      "TRUCKS": "truck-skate"
+    }
   }
 ]
