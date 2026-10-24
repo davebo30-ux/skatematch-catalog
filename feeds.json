@@ -594,5 +594,15 @@
       "DECK": "planche-skate",
       "TRUCKS": "truck-skate"
     }
+  },
+  {
+    "id": "nomadeshop",
+    "shop": "Nomadeshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.nomadeshop.com",
+    "categories": {
+      "DECK": "/fr/114-planches-skate",
+      "TRUCKS": "/fr/115-trucks-skateboards"
+    }
   }
 ]
