@@ -604,5 +604,15 @@
       "DECK": "/fr/114-planches-skate",
       "TRUCKS": "/fr/115-trucks-skateboards"
     }
+  },
+  {
+    "id": "shapers-club",
+    "shop": "Surfshop Shapers Club",
+    "kind": "shopify",
+    "baseUrl": "https://surfshop.shapersclub.com",
+    "collections": {
+      "TRUCKS": "trucks-de-skate",
+      "BEARINGS": "roulements"
+    }
   }
 ]
