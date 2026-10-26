@@ -614,5 +614,14 @@
       "TRUCKS": "trucks-de-skate",
       "BEARINGS": "roulements"
     }
+  },
+  {
+    "id": "disturb-house",
+    "shop": "The Disturb House Skate Shop",
+    "kind": "shopify",
+    "baseUrl": "https://www.thedisturbhouse-skateshop.com",
+    "collections": {
+      "DECK": "decks"
+    }
   }
 ]
