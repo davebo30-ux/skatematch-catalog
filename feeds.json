@@ -623,5 +623,16 @@
     "collections": {
       "DECK": "decks"
     }
+  },
+  {
+    "id": "independentstreet",
+    "shop": "IndependentStreet",
+    "kind": "html",
+    "baseUrl": "https://independentstreet.fr",
+    "maxPages": 1,
+    "requestDelayMs": 750,
+    "categories": {
+      "DECK": "/17-planches-de-skateboard"
+    }
   }
 ]
