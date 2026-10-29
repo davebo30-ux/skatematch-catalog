@@ -634,5 +634,17 @@
     "categories": {
       "DECK": "/17-planches-de-skateboard"
     }
+  },
+  {
+    "id": "abcskate",
+    "shop": "ABC Skate",
+    "kind": "woocommerce",
+    "baseUrl": "https://www.abcskate.com",
+    "categories": {
+      "DECK": 2366,
+      "TRUCKS": 2371,
+      "WHEELS": 2368,
+      "BEARINGS": 2369
+    }
   }
 ]
