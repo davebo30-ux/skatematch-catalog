@@ -646,14 +646,5 @@
       "WHEELS": 2368,
       "BEARINGS": 2369
     }
-  },
-  {
-    "id": "slidebox",
-    "shop": "SB Skateshop (SlideBox)",
-    "kind": "prestashop",
-    "baseUrl": "https://sb-skateshop.com",
-    "categories": {
-      "DECK": "/20-plateaux"
-    }
   }
 ]
