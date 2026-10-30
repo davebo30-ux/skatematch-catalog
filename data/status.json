@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T21:33:04.876Z",
+  "generatedAt": "2026-10-30T11:12:50.732Z",
   "totalOffers": 10267,
   "counts": {
-    "DECK": 5337,
+    "DECK": 5338,
     "TRUCKS": 1687,
     "WHEELS": 2782,
-    "BEARINGS": 461
+    "BEARINGS": 460
   },
   "sources": [
     {
@@ -27,7 +27,7 @@
       "shop": "Buzzz Skateshop",
       "status": "ok",
       "scanned": 243,
-      "imported": 116
+      "imported": 115
     },
     {
       "id": "circle",
@@ -47,8 +47,8 @@
       "id": "central",
       "shop": "Central Sk8 Shop",
       "status": "ok",
-      "scanned": 45,
-      "imported": 14
+      "scanned": 44,
+      "imported": 13
     },
     {
       "id": "lockwood",
@@ -82,15 +82,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 2976,
-      "imported": 3031
+      "scanned": 2970,
+      "imported": 3025
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "fetch failed"
     },
     {
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -163,7 +163,7 @@
       "shop": "Nozbone Skateshop",
       "status": "stale",
       "imported": 202,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "403 Forbidden · https://www.nozbone.eu/skateboarding/skateboard-decks.html"
     },
     {
@@ -219,8 +219,8 @@
       "id": "freerideattitude",
       "shop": "Freeride Attitude",
       "status": "ok",
-      "scanned": 119,
-      "imported": 112
+      "scanned": 118,
+      "imported": 111
     },
     {
       "id": "outside",
@@ -247,15 +247,15 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 154,
-      "imported": 151
+      "scanned": 153,
+      "imported": 150
     },
     {
       "id": "albp",
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -263,7 +263,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -306,7 +306,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -342,7 +342,7 @@
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -357,7 +357,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-10-29T12:38:21.837Z",
+      "retainedFrom": "2026-10-29T21:33:04.876Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -371,8 +371,8 @@
       "id": "ckh",
       "shop": "CKH Skateboarding",
       "status": "ok",
-      "scanned": 12,
-      "imported": 8
+      "scanned": 15,
+      "imported": 18
     },
     {
       "id": "cabane-glisse",
