@@ -646,5 +646,17 @@
       "WHEELS": 2368,
       "BEARINGS": 2369
     }
+  },
+  {
+    "id": "play",
+    "shop": "PLAY Skateshop",
+    "kind": "prestashop",
+    "baseUrl": "https://www.playskateshop.com",
+    "categories": {
+      "DECK": "/fr/62-planches-de-skate",
+      "TRUCKS": "/fr/63-trucks",
+      "WHEELS": "/fr/64-roues",
+      "BEARINGS": "/fr/65-roulements"
+    }
   }
 ]
