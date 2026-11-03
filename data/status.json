@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-03T12:39:03.391Z",
-  "totalOffers": 10339,
+  "generatedAt": "2026-11-03T22:14:15.065Z",
+  "totalOffers": 10335,
   "counts": {
-    "DECK": 5370,
-    "TRUCKS": 1694,
+    "DECK": 5369,
+    "TRUCKS": 1691,
     "WHEELS": 2811,
     "BEARINGS": 464
   },
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 745,
-      "imported": 735
+      "scanned": 742,
+      "imported": 732
     },
     {
       "id": "wallstreet",
@@ -33,15 +33,15 @@
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 656,
+      "scanned": 659,
       "imported": 27
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 555,
-      "imported": 92
+      "scanned": 559,
+      "imported": 95
     },
     {
       "id": "central",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 492,
-      "imported": 491
+      "scanned": 485,
+      "imported": 484
     },
     {
       "id": "bass",
@@ -75,8 +75,8 @@
       "id": "bamboo",
       "shop": "Bamboo Skateshop",
       "status": "ok",
-      "scanned": 150,
-      "imported": 143
+      "scanned": 154,
+      "imported": 147
     },
     {
       "id": "numero4",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "fetch failed"
     },
     {
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -177,7 +177,7 @@
       "shop": "Roller'n Co",
       "status": "ok",
       "scanned": 229,
-      "imported": 102
+      "imported": 101
     },
     {
       "id": "banks",
@@ -197,8 +197,8 @@
       "id": "streetart",
       "shop": "Streetart Skateshop",
       "status": "ok",
-      "scanned": 62,
-      "imported": 59
+      "scanned": 63,
+      "imported": 60
     },
     {
       "id": "brothercrew",
@@ -212,7 +212,7 @@
       "shop": "Slide Skateshop",
       "status": "ok",
       "scanned": 102,
-      "imported": 32
+      "imported": 31
     },
     {
       "id": "freerideattitude",
@@ -254,7 +254,7 @@
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -341,7 +341,7 @@
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -356,7 +356,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-11-02T23:49:20.790Z",
+      "retainedFrom": "2026-11-03T12:39:03.391Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
