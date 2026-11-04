@@ -646,5 +646,14 @@
       "WHEELS": 2368,
       "BEARINGS": 2369
     }
+  },
+  {
+    "id": "douvitch",
+    "shop": "Douvitch's Skateshop",
+    "kind": "woocommerce",
+    "baseUrl": "https://skateshop-arras.fr",
+    "categories": {
+      "DECK": 111
+    }
   }
 ]
