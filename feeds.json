@@ -655,14 +655,5 @@
     "categories": {
       "DECK": 111
     }
-  },
-  {
-    "id": "pacificwear",
-    "shop": "Pacific Wear",
-    "kind": "prestashop",
-    "baseUrl": "https://pacificwear.fr",
-    "categories": {
-      "BEARINGS": "/c/89-roulements"
-    }
   }
 ]
