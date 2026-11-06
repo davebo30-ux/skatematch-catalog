@@ -655,5 +655,14 @@
     "categories": {
       "DECK": 111
     }
+  },
+  {
+    "id": "cdk",
+    "shop": "CDK - Le Cri du Kangourou",
+    "kind": "woocommerce",
+    "baseUrl": "https://www.cdk.fr",
+    "categories": {
+      "DECK": 1486
+    }
   }
 ]
