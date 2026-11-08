@@ -664,14 +664,5 @@
     "categories": {
       "DECK": 1486
     }
-  },
-  {
-    "id": "glissup",
-    "shop": "Gliss'Up Surfshop",
-    "kind": "prestashop",
-    "baseUrl": "https://www.glissup.fr",
-    "categories": {
-      "DECK": "/3856-decks-skate"
-    }
   }
 ]
