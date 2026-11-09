@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-08T20:59:26.480Z",
-  "totalOffers": 10370,
+  "generatedAt": "2026-11-09T12:44:11.914Z",
+  "totalOffers": 10388,
   "counts": {
-    "DECK": 5420,
+    "DECK": 5439,
     "TRUCKS": 1690,
-    "WHEELS": 2798,
+    "WHEELS": 2797,
     "BEARINGS": 462
   },
   "sources": [
@@ -12,8 +12,8 @@
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 748,
-      "imported": 738
+      "scanned": 767,
+      "imported": 757
     },
     {
       "id": "wallstreet",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 515,
-      "imported": 514
+      "scanned": 514,
+      "imported": 513
     },
     {
       "id": "bass",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "fetch failed"
     },
     {
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -225,8 +225,8 @@
       "id": "outside",
       "shop": "Outside Skateshop",
       "status": "ok",
-      "scanned": 24,
-      "imported": 24
+      "scanned": 23,
+      "imported": 23
     },
     {
       "id": "kids",
@@ -254,7 +254,7 @@
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -262,22 +262,22 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
       "id": "fulkit",
       "shop": "Fulkit Skateshop",
       "status": "ok",
-      "scanned": 116,
-      "imported": 90
+      "scanned": 118,
+      "imported": 92
     },
     {
       "id": "lechoppe",
       "shop": "L'Échoppe Skateshop",
       "status": "ok",
-      "scanned": 132,
-      "imported": 132
+      "scanned": 131,
+      "imported": 131
     },
     {
       "id": "hawaiisurf",
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -341,7 +341,7 @@
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -356,7 +356,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-11-08T12:27:26.803Z",
+      "retainedFrom": "2026-11-08T20:59:26.480Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -478,6 +478,18 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "403 Forbidden · https://www.snowbeach.com/snowbeach/skateboards/planches.html"
+    },
+    {
+      "id": "sevensuns",
+      "shop": "Seven Suns",
+      "status": "error",
+      "message": "403 Forbidden · https://sevensuns.fr/fr/40-skates-plateaux-seuls?ajax=1&page=1&resultsPerPage=100"
+    },
+    {
+      "id": "evasion",
+      "shop": "Evasion Skateshop",
+      "status": "error",
+      "message": "503 Service Temporarily Unavailable · https://evasion-eshop.com/1000425-plateau-skate?ajax=1&page=1&resultsPerPage=100"
     }
   ]
 }
