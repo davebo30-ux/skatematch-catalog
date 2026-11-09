@@ -664,25 +664,5 @@
     "categories": {
       "DECK": 1486
     }
-  },
-  {
-    "id": "sevensuns",
-    "shop": "Seven Suns",
-    "kind": "prestashop",
-    "baseUrl": "https://sevensuns.fr",
-    "categories": {
-      "DECK": "/fr/40-skates-plateaux-seuls",
-      "BEARINGS": "/fr/43-roulements"
-    }
-  },
-  {
-    "id": "evasion",
-    "shop": "Evasion Skateshop",
-    "kind": "prestashop",
-    "baseUrl": "https://evasion-eshop.com",
-    "categories": {
-      "DECK": "/1000425-plateau-skate",
-      "BEARINGS": "/1000424-roulement"
-    }
   }
 ]
