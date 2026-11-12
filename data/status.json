@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-11-12T13:35:37.483Z",
-  "totalOffers": 11060,
+  "generatedAt": "2026-11-12T22:36:34.863Z",
+  "totalOffers": 11040,
   "counts": {
-    "DECK": 5923,
-    "TRUCKS": 1762,
-    "WHEELS": 2898,
-    "BEARINGS": 477
+    "DECK": 5909,
+    "TRUCKS": 1760,
+    "WHEELS": 2897,
+    "BEARINGS": 474
   },
   "sources": [
     {
       "id": "bud",
       "shop": "BUD Skateshop",
       "status": "ok",
-      "scanned": 939,
-      "imported": 929
+      "scanned": 934,
+      "imported": 924
     },
     {
       "id": "wallstreet",
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 247,
-      "imported": 90
+      "imported": 88
     },
     {
       "id": "buzzz",
       "shop": "Buzzz Skateshop",
       "status": "ok",
-      "scanned": 2385,
-      "imported": 626
+      "scanned": 2287,
+      "imported": 618
     },
     {
       "id": "circle",
       "shop": "Circle Shop",
       "status": "ok",
-      "scanned": 640,
+      "scanned": 643,
       "imported": 27
     },
     {
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 563,
+      "scanned": 566,
       "imported": 94
     },
     {
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 503,
-      "imported": 502
+      "scanned": 498,
+      "imported": 497
     },
     {
       "id": "bass",
@@ -82,15 +82,15 @@
       "id": "numero4",
       "shop": "Numéro 4 Skateshop",
       "status": "ok",
-      "scanned": 3001,
-      "imported": 3096
+      "scanned": 3000,
+      "imported": 3095
     },
     {
       "id": "city",
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2245,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "fetch failed"
     },
     {
@@ -134,7 +134,7 @@
       "shop": "Born2ride",
       "status": "ok",
       "scanned": 108,
-      "imported": 106
+      "imported": 104
     },
     {
       "id": "pereskateur",
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -177,7 +177,7 @@
       "shop": "Roller'n Co",
       "status": "ok",
       "scanned": 229,
-      "imported": 100
+      "imported": 99
     },
     {
       "id": "banks",
@@ -204,8 +204,8 @@
       "id": "brothercrew",
       "shop": "Brother Crew Skateshop",
       "status": "ok",
-      "scanned": 41,
-      "imported": 45
+      "scanned": 44,
+      "imported": 48
     },
     {
       "id": "slide",
@@ -246,15 +246,15 @@
       "id": "vega",
       "shop": "Vega Skateshop",
       "status": "ok",
-      "scanned": 150,
-      "imported": 147
+      "scanned": 149,
+      "imported": 146
     },
     {
       "id": "albp",
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -276,8 +276,8 @@
       "id": "lechoppe",
       "shop": "L'Échoppe Skateshop",
       "status": "ok",
-      "scanned": 131,
-      "imported": 131
+      "scanned": 134,
+      "imported": 134
     },
     {
       "id": "hawaiisurf",
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -341,7 +341,7 @@
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -356,7 +356,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-11-12T12:18:07.356Z",
+      "retainedFrom": "2026-11-12T13:35:37.483Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -426,8 +426,8 @@
       "id": "nomadeshop",
       "shop": "Nomadeshop",
       "status": "ok",
-      "scanned": 115,
-      "imported": 112
+      "scanned": 116,
+      "imported": 111
     },
     {
       "id": "shapers-club",
