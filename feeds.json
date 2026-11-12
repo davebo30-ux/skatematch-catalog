@@ -664,5 +664,15 @@
     "categories": {
       "DECK": 1486
     }
+  },
+  {
+    "id": "tyride",
+    "shop": "Ty’Ride",
+    "kind": "woocommerce",
+    "baseUrl": "https://ty-ride.shop",
+    "categories": {
+      "DECK": 1924,
+      "WHEELS": 1919
+    }
   }
 ]
