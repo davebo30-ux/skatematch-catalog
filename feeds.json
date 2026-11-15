@@ -674,17 +674,5 @@
       "DECK": 1924,
       "WHEELS": 1919
     }
-  },
-  {
-    "id": "sbskateshop",
-    "shop": "SB-skateshop (SlideBox)",
-    "kind": "prestashop",
-    "baseUrl": "https://sb-skateshop.com",
-    "categories": {
-      "DECK": "/20-plateaux",
-      "TRUCKS": "/21-truck",
-      "WHEELS": "/22-roues",
-      "BEARINGS": "/760-roulements-skateboard"
-    }
   }
 ]
