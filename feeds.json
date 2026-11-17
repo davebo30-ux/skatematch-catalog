@@ -674,5 +674,14 @@
       "DECK": 1924,
       "WHEELS": 1919
     }
+  },
+  {
+    "id": "boulbag",
+    "shop": "Boulbag Shop",
+    "kind": "prestashop",
+    "baseUrl": "https://boulbag-shop.fr",
+    "categories": {
+      "DECK": "/32-planche-board"
+    }
   }
 ]
