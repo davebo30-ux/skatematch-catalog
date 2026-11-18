@@ -683,5 +683,15 @@
     "categories": {
       "DECK": "/32-planche-board"
     }
+  },
+  {
+    "id": "arkaic",
+    "shop": "Arkaic Skateboard & Store",
+    "kind": "woocommerce",
+    "baseUrl": "https://arkaic-skateboard.fr",
+    "categories": {
+      "DECK": 556,
+      "BEARINGS": 396
+    }
   }
 ]
