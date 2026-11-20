@@ -693,5 +693,11 @@
       "DECK": 556,
       "BEARINGS": 396
     }
+  },
+  {
+    "id": "saintbrook",
+    "shop": "Saint-Brook",
+    "kind": "shopify",
+    "baseUrl": "https://saintbrook.fr"
   }
 ]
