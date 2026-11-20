@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-20T12:54:37.445Z",
-  "totalOffers": 11668,
+  "generatedAt": "2026-11-20T13:51:15.368Z",
+  "totalOffers": 11669,
   "counts": {
-    "DECK": 6476,
+    "DECK": 6478,
     "TRUCKS": 1769,
-    "WHEELS": 2944,
+    "WHEELS": 2943,
     "BEARINGS": 479
   },
   "sources": [
@@ -40,8 +40,8 @@
       "id": "ollieday",
       "shop": "Ollieday Skateshop",
       "status": "ok",
-      "scanned": 576,
-      "imported": 94
+      "scanned": 578,
+      "imported": 96
     },
     {
       "id": "central",
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2219,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "fetch failed"
     },
     {
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -190,8 +190,8 @@
       "id": "zeropolis",
       "shop": "Zeropolis Skateshop",
       "status": "ok",
-      "scanned": 343,
-      "imported": 309
+      "scanned": 342,
+      "imported": 308
     },
     {
       "id": "streetart",
@@ -254,7 +254,7 @@
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -341,7 +341,7 @@
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -356,7 +356,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -448,7 +448,7 @@
       "shop": "IndependentStreet",
       "status": "stale",
       "imported": 12,
-      "retainedFrom": "2026-11-19T23:26:07.159Z",
+      "retainedFrom": "2026-11-20T12:54:37.445Z",
       "message": "404 Not Found · https://independentstreet.fr/17-planches-de-skateboard"
     },
     {
