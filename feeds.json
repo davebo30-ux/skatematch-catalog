@@ -699,5 +699,15 @@
     "shop": "Saint-Brook",
     "kind": "shopify",
     "baseUrl": "https://saintbrook.fr"
+  },
+  {
+    "id": "pisolo",
+    "shop": "Pisolo Pro Shop",
+    "kind": "html",
+    "baseUrl": "https://www.pisoloproshop.com",
+    "categories": {
+      "TRUCKS": "/438-vente-de-truck-pour-skate",
+      "WHEELS": "/437-vente-de-roue-pour-skate"
+    }
   }
 ]
