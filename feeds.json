@@ -709,16 +709,5 @@
       "TRUCKS": "/438-vente-de-truck-pour-skate",
       "WHEELS": "/437-vente-de-roue-pour-skate"
     }
-  },
-  {
-    "id": "sevensuns",
-    "shop": "Seven Suns",
-    "kind": "prestashop",
-    "baseUrl": "https://sevensuns.fr",
-    "categories": {
-      "TRUCKS": "/fr/41-trucks-street",
-      "WHEELS": "/fr/42-roues-street",
-      "BEARINGS": "/fr/43-roulements"
-    }
   }
 ]
