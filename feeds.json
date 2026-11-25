@@ -709,5 +709,16 @@
       "TRUCKS": "/438-vente-de-truck-pour-skate",
       "WHEELS": "/437-vente-de-roue-pour-skate"
     }
+  },
+  {
+    "id": "hotmer",
+    "shop": "Hotmer",
+    "kind": "prestashop",
+    "baseUrl": "https://www.hotmer.com",
+    "categories": {
+      "DECK": "/2059-plateau-de-skate",
+      "TRUCKS": "/2060-trucks-de-skate",
+      "WHEELS": "/441-roues-de-skate"
+    }
   }
 ]
