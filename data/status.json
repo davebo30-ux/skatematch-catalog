@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-28T00:23:14.517Z",
-  "totalOffers": 13124,
+  "generatedAt": "2026-11-28T13:13:08.217Z",
+  "totalOffers": 13115,
   "counts": {
-    "DECK": 7233,
+    "DECK": 7225,
     "TRUCKS": 1942,
-    "WHEELS": 3475,
+    "WHEELS": 3474,
     "BEARINGS": 474
   },
   "sources": [
@@ -20,7 +20,7 @@
       "shop": "WallStreet Skateshop",
       "status": "ok",
       "scanned": 249,
-      "imported": 59
+      "imported": 58
     },
     {
       "id": "buzzz",
@@ -41,7 +41,7 @@
       "shop": "Ollieday Skateshop",
       "status": "ok",
       "scanned": 593,
-      "imported": 94
+      "imported": 93
     },
     {
       "id": "central",
@@ -61,8 +61,8 @@
       "id": "freedom",
       "shop": "Freedom Skateshop",
       "status": "ok",
-      "scanned": 487,
-      "imported": 486
+      "scanned": 485,
+      "imported": 483
     },
     {
       "id": "bass",
@@ -90,14 +90,14 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2219,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "The operation was aborted due to timeout"
     },
     {
       "id": "okla",
       "shop": "OKLA Shop",
       "status": "ok",
-      "scanned": 241,
+      "scanned": 255,
       "imported": 219
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "fetch failed"
     },
     {
@@ -155,22 +155,22 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
       "id": "nozbone",
       "shop": "Nozbone Skateshop",
       "status": "ok",
-      "scanned": 208,
-      "imported": 207
+      "scanned": 209,
+      "imported": 208
     },
     {
       "id": "milk",
       "shop": "Milk Skate Store",
       "status": "ok",
-      "scanned": 77,
-      "imported": 58
+      "scanned": 76,
+      "imported": 57
     },
     {
       "id": "rollernco",
@@ -233,7 +233,7 @@
       "shop": "Kid's Skateshop",
       "status": "ok",
       "scanned": 76,
-      "imported": 76
+      "imported": 75
     },
     {
       "id": "drdeck",
@@ -254,7 +254,7 @@
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -319,8 +319,8 @@
       "id": "clicnroll",
       "shop": "Clic-n-Roll",
       "status": "ok",
-      "scanned": 58,
-      "imported": 58
+      "scanned": 57,
+      "imported": 57
     },
     {
       "id": "movement",
@@ -332,16 +332,17 @@
     {
       "id": "relaxskate",
       "shop": "Relax Skate",
-      "status": "ok",
-      "scanned": 20,
-      "imported": 20
+      "status": "stale",
+      "imported": 20,
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "message": "Aucun produit disponible dans le flux"
     },
     {
       "id": "slidercorner",
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -356,7 +357,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -383,10 +384,9 @@
     {
       "id": "phalanger",
       "shop": "Phalanger",
-      "status": "stale",
-      "imported": 3,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
-      "message": "Aucun produit disponible dans le flux"
+      "status": "ok",
+      "scanned": 3,
+      "imported": 3
     },
     {
       "id": "insidshop",
@@ -449,16 +449,15 @@
       "shop": "IndependentStreet",
       "status": "stale",
       "imported": 12,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
+      "retainedFrom": "2026-11-28T00:23:14.517Z",
       "message": "404 Not Found · https://independentstreet.fr/17-planches-de-skateboard"
     },
     {
       "id": "abcskate",
       "shop": "ABC Skate",
-      "status": "stale",
-      "imported": 19,
-      "retainedFrom": "2026-11-27T14:43:32.916Z",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "scanned": 20,
+      "imported": 19
     },
     {
       "id": "douvitch",
@@ -500,7 +499,7 @@
       "shop": "Saint-Brook",
       "status": "ok",
       "scanned": 395,
-      "imported": 73
+      "imported": 72
     },
     {
       "id": "pisolo",
@@ -514,7 +513,7 @@
       "shop": "Hotmer",
       "status": "ok",
       "scanned": 2897,
-      "imported": 1459
+      "imported": 1458
     }
   ],
   "unavailableSources": [
@@ -523,6 +522,12 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "Aucun produit disponible dans le flux"
+    },
+    {
+      "id": "pacificwear",
+      "shop": "Pacific Wear",
+      "status": "error",
+      "message": "403 Forbidden · https://pacificwear.fr/c/89-roulements?ajax=1&page=1&resultsPerPage=100"
     }
   ]
 }
