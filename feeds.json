@@ -720,5 +720,14 @@
       "TRUCKS": "/2060-trucks-de-skate",
       "WHEELS": "/441-roues-de-skate"
     }
+  },
+  {
+    "id": "pacificwear",
+    "shop": "Pacific Wear",
+    "kind": "prestashop",
+    "baseUrl": "https://pacificwear.fr",
+    "categories": {
+      "BEARINGS": "/c/89-roulements"
+    }
   }
 ]
