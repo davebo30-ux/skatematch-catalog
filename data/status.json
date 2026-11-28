@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T13:13:08.217Z",
+  "generatedAt": "2026-11-28T13:16:21.024Z",
   "totalOffers": 13115,
   "counts": {
     "DECK": 7225,
@@ -90,7 +90,7 @@
       "shop": "City Skateshop",
       "status": "stale",
       "imported": 2219,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "The operation was aborted due to timeout"
     },
     {
@@ -112,7 +112,7 @@
       "shop": "Jack'n Roll",
       "status": "stale",
       "imported": 17,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "fetch failed"
     },
     {
@@ -155,7 +155,7 @@
       "shop": "Shifty Board Shop",
       "status": "stale",
       "imported": 37,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -254,7 +254,7 @@
       "shop": "A La Bonne Planchette",
       "status": "stale",
       "imported": 71,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "503 Service Unavailable · https://alabonneplanchette.fr/10000028-planches"
     },
     {
@@ -262,7 +262,7 @@
       "shop": "Independent Skateshop",
       "status": "stale",
       "imported": 5,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "403 Forbidden · https://www.independent-skateshop.com/fr/roulements-skate/?q=Marque-Bronson&ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -305,7 +305,7 @@
       "shop": "Breizh Rider",
       "status": "stale",
       "imported": 32,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "403 Forbidden · https://www.breizh-rider.fr/fr/70-roues-de-skate"
     },
     {
@@ -334,7 +334,7 @@
       "shop": "Relax Skate",
       "status": "stale",
       "imported": 20,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "Aucun produit disponible dans le flux"
     },
     {
@@ -342,7 +342,7 @@
       "shop": "Slider Corner",
       "status": "stale",
       "imported": 2,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "403 Forbidden · https://slidercorner.com/73-roulements?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -357,7 +357,7 @@
       "shop": "Neway Nantes",
       "status": "stale",
       "imported": 23,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "403 Forbidden · https://www.neway-nantes.fr/plateaux-81?ajax=1&page=1&resultsPerPage=100"
     },
     {
@@ -384,9 +384,10 @@
     {
       "id": "phalanger",
       "shop": "Phalanger",
-      "status": "ok",
-      "scanned": 3,
-      "imported": 3
+      "status": "stale",
+      "imported": 3,
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
+      "message": "Aucun produit disponible dans le flux"
     },
     {
       "id": "insidshop",
@@ -449,15 +450,16 @@
       "shop": "IndependentStreet",
       "status": "stale",
       "imported": 12,
-      "retainedFrom": "2026-11-28T00:23:14.517Z",
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
       "message": "404 Not Found · https://independentstreet.fr/17-planches-de-skateboard"
     },
     {
       "id": "abcskate",
       "shop": "ABC Skate",
-      "status": "ok",
-      "scanned": 20,
-      "imported": 19
+      "status": "stale",
+      "imported": 19,
+      "retainedFrom": "2026-11-28T13:13:08.217Z",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
     },
     {
       "id": "douvitch",
@@ -522,12 +524,6 @@
       "shop": "Snowbeach",
       "status": "error",
       "message": "Aucun produit disponible dans le flux"
-    },
-    {
-      "id": "pacificwear",
-      "shop": "Pacific Wear",
-      "status": "error",
-      "message": "403 Forbidden · https://pacificwear.fr/c/89-roulements?ajax=1&page=1&resultsPerPage=100"
     }
   ]
 }
